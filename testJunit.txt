@@ -1,6 +1,0 @@
-fr.formiko.usuel.image.imageTest
-fr.formiko.usuel.conversiondetype.strTest
-fr.formiko.usuel.math.mathTest
-fr.formiko.usuel.math.alleaTest
-fr.formiko.usuel.chargerLesTraductionsTest
-fr.formiko.formiko.interfaces.TrophallaxieFourmiTest
