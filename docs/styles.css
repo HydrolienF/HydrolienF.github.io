@@ -4,17 +4,35 @@ body{
 
 h1, h2, h3, h4, h5, h6{
   margin: 0px 0px;
-  padding: 2vh 1vh;
 }
 
 h1{
   font-size: 10vh;
+  padding: 2vh 1vh;
 }
 h2{
   font-size: 5vh;
+  padding: 2vh 1vh;
 }
 h3{
   font-size: 4vh;
+  padding: 1vh 0.5vh;
+}
+h4{
+  font-size: 3vh;
+  padding: 0.7vh 0.5vh;
+}
+h5{
+  font-size: 2.3vh;
+  padding: 0.7vh 0.2vh;
+}
+h6{
+  font-size: 1.8vh;
+  padding: 0.7vh 0.2vh;
+}
+h7{
+  font-size: 1.2vh;
+  padding: 0.7vh 0.2vh;
 }
 
 header{
