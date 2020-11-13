@@ -1,3 +1,10 @@
-**Formiko**
+### Formiko
+You play, you're an ant !
 
-This is the web site repository for Formiko see the official README for the project there: https://github.com/HydrolienF/Formiko
+##### About repository
+This repository is the Formiko's official website.
+
+##### See the website
+To see the Formiko's website, you may use two URLs :
+- https://HydrolienF.github.io/
+- https://formiko.fr/
