@@ -41,6 +41,10 @@ header{
   margin-right: 10%;
 }
 
+nav ul {
+  list-style-type: none;
+}
+
 #main-title{
   padding: 30px;
   padding-bottom: 40px;
@@ -110,7 +114,7 @@ header{
   border-radius: 15px;
 }
 
-input{
+nav ul li{
   font-size: 4vh;
   background-color:#51E823;
   color: #4747F3;
@@ -122,9 +126,13 @@ input{
   font-family: 'Do Hyeon', sans-serif;
 }
 
-input:hover{
+nav ul li:hover{
   background-color: #309013;
   transition: width 1s, height 1s, background-color 1s, transform 1s;
+}
+
+nav ul li a {
+  text-decoration: none;
 }
 
 body{
