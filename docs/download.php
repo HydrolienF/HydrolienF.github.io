@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap">
   </head>
   <body>
-
+    <?php
+      $lastStableVersion="1.12.1";
+      $lastVersion="1.15.2"
+    ?>
     <header>
       <h1 id="main-title">Formiko</h1>
       <nav>
         <ul id="buttons-bar">
           <li id="button-home-page"><a href="./index.html">Home</a></li>
-          <li id="button-download-page"><a href="./download.html">Download</a></li>
-          <!-- <li id="button-github-page"><a href="https://github.com/HydrolienF/Formiko/">Github</a></li> -->
+          <li id="button-download-page"><a href="./download.php">Download</a></li>
+          <li id="button-github-page"><a href="https://github.com/HydrolienF/Formiko/">Github</a></li>
           <li id="button-javadoc-page"><a href="./javadoc/index.html">Javadoc</a></li>
         </ul>
       </nav>
@@ -29,31 +32,31 @@
           <center><h3>Windows</h3></center>
           <!-- ICI METTRE LES LIENS POUR WINDOWS -->
           <h5 class="recommended">Recommended: </h5>
-          🐞 <a href="https://github.com/HydrolienF/Formiko/releases/download/1.12.1/Formiko1.12.1Windows.zip">1.12.1</a>
+          🐞 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastStableVersion ?>/Formiko<?php echo $lastStableVersion ?>Windows.zip">1.12.1</a>
           <h5 class="last">Last: </h5>
-          🔗 <a href="https://github.com/HydrolienF/Formiko/releases/download/1.15.2/Formiko1.15.2Windows.zip">1.15.2</a>
+          🔗 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastVersion ?>/Formiko<?php echo $lastVersion ?>Windows.zip">1.15.2</a>
         </div>
         <div class="download-frame">
             <center><h3>Mac</h3></center>
             <!-- ICI METTRE LES LIENS POUR MACOS -->
             <h5 class="recommended">Recommended: </h5>
-            🐞 <a href="https://github.com/HydrolienF/Formiko/releases/download/1.12.1/Formiko1.12.1Mac.zip">1.12.1</a>
+            🐞 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastStableVersion ?>/Formiko<?php echo $lastStableVersion ?>Mac.zip">1.12.1</a>
             <h5 class="last">Last: </h5>
-            🔗 <a href="https://github.com/HydrolienF/Formiko/releases/download/1.15.2/Formiko1.15.2Mac.zip">1.15.2</a>
+            🔗 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastVersion ?>/Formiko<?php echo $lastVersion ?>Mac.zip">1.15.2</a>
           </div>
           <div class="download-frame">
             <center><h3>Linux</h3></center>
             <!-- ICI METTRE LES LIENS POUR LINUX -->
             <h5 class="recommended">Recommended: </h5>
-            🐞 <a href="https://github.com/HydrolienF/Formiko/releases/download/1.12.1/Formiko1.12.1Linux.zip">1.12.1</a>
+            🐞 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastStableVersion ?>/Formiko<?php echo $lastStableVersion ?>Linux.zip">1.12.1</a>
             <h5 class="last">Last: </h5>
-            🔗 <a href="https://github.com/HydrolienF/Formiko/releases/download/1.15.2/Formiko1.15.2Linux.zip">1.15.2</a>
+            🔗 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastVersion ?>/Formiko<?php echo $lastVersion ?>Linux.zip">1.15.2</a>
           </div>
           <div class="download-frame">
             <center><h3>Without Java</h3></center>
             <!-- ICI METTRE LES LIENS SANS JAVA -->
             <h5 class="recommended">Recommended: </h5>
-            🐞 <a href="https://github.com/HydrolienF/Formiko/releases/download/1.12.1/Formiko1.12.1.zip">1.12.1</a>
+            🐞 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastStableVersion ?>/Formiko<?php echo $lastStableVersion ?>.zip">1.12.1</a>
             <h5 class="last">Last: </h5>
             🔗 <a href="https://github.com/HydrolienF/Formiko/releases/download/1.15.2/Formiko1.15.2.zip">1.15.2</a>
           </div>
