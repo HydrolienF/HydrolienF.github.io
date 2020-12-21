@@ -1,4 +1,3 @@
-<?php $lastStableVersion="1.15.3"; $lastVersion="1.12.1" ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
