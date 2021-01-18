@@ -25,11 +25,11 @@ function translate(){
     document.querySelector("#button-download-page a").textContent = translations.downloadLink
     document.querySelector("#selectALanguage").textContent = translations.selectALanguage
 
-    /*//index
+    //index
     document.querySelector("#welcome").textContent = translations.welcome
     document.querySelector("#presentation").textContent = translations.presentation
     document.querySelector("#trailer").textContent = translations.trailer
-    document.querySelector("#discord").textContent = translations.discord*/
+    document.querySelector("#discord").textContent = translations.discord
 
   }
 }
