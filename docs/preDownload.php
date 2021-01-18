@@ -28,33 +28,33 @@
           <center><h3>Windows</h3></center>
           <!-- ICI METTRE LES LIENS POUR WINDOWS -->
           <h5 class="recommended">Recommended: </h5>
-          🐞 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastStableVersion ?>/Formiko<?php echo $lastStableVersion ?>Windows.zip">1.12.1</a>
+          🐞 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastStableVersion ?>/Formiko<?php echo $lastStableVersion ?>Windows.zip"><?php echo $lastStableVersion ?></a>
           <h5 class="last">Last: </h5>
-          🔗 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastVersion ?>/Formiko<?php echo $lastVersion ?>Windows.zip">1.15.2</a>
+          🔗 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastVersion ?>/Formiko<?php echo $lastVersion ?>Windows.zip"><?php echo $lastVersion ?></a>
         </div>
         <div class="download-frame">
             <center><h3>Mac</h3></center>
             <!-- ICI METTRE LES LIENS POUR MACOS -->
             <h5 class="recommended">Recommended: </h5>
-            🐞 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastStableVersion ?>/Formiko<?php echo $lastStableVersion ?>Mac.zip">1.12.1</a>
+            🐞 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastStableVersion ?>/Formiko<?php echo $lastStableVersion ?>Mac.zip"><?php echo $lastStableVersion ?></a>
             <h5 class="last">Last: </h5>
-            🔗 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastVersion ?>/Formiko<?php echo $lastVersion ?>Mac.zip">1.15.2</a>
+            🔗 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastVersion ?>/Formiko<?php echo $lastVersion ?>Mac.zip"><?php echo $lastVersion ?></a>
           </div>
           <div class="download-frame">
             <center><h3>Linux</h3></center>
             <!-- ICI METTRE LES LIENS POUR LINUX -->
             <h5 class="recommended">Recommended: </h5>
-            🐞 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastStableVersion ?>/Formiko<?php echo $lastStableVersion ?>Linux.zip">1.12.1</a>
+            🐞 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastStableVersion ?>/Formiko<?php echo $lastStableVersion ?>Linux.zip"><?php echo $lastStableVersion ?></a>
             <h5 class="last">Last: </h5>
-            🔗 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastVersion ?>/Formiko<?php echo $lastVersion ?>Linux.zip">1.15.2</a>
+            🔗 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastVersion ?>/Formiko<?php echo $lastVersion ?>Linux.zip"><?php echo $lastVersion ?></a>
           </div>
           <div class="download-frame">
             <center><h3>Without Java</h3></center>
             <!-- ICI METTRE LES LIENS SANS JAVA -->
             <h5 class="recommended">Recommended: </h5>
-            🐞 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastStableVersion ?>/Formiko<?php echo $lastStableVersion ?>.zip">1.12.1</a>
+            🐞 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastStableVersion ?>/Formiko<?php echo $lastStableVersion ?>.zip"><?php echo $lastStableVersion ?></a>
             <h5 class="last">Last: </h5>
-            🔗 <a href="https://github.com/HydrolienF/Formiko/releases/download/1.15.2/Formiko1.15.2.zip">1.15.2</a>
+            🔗 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastVersion ?>/Formiko<?php echo $lastVersion ?>.zip"><?php echo $lastVersion ?></a>
           </div>
       </div>
       <p>Other versions can be found <a href="https://mega.nz/folder/ioJCQIxC#iepxcJSIExYzui9GQG9RuQ">here</a>.</p>
