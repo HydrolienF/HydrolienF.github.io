@@ -16,6 +16,16 @@
           <li id="button-download-page"><a href="./download.html">Download</a></li>
           <li id="button-github-page"><a href="https://github.com/HydrolienF/Formiko/">Github</a></li>
           <li id="button-javadoc-page"><a href="./javadoc/index.html">Javadoc</a></li>
+          <li>
+            <form action="download.html" method="get">
+              <select name="language" id="language" onchange="this.form.submit()">
+                <option id="selectALanguage" value="">Language</option>
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="eo">Esperanto</option>
+              </select>
+            </form>
+          </li>
         </ul>
       </nav>
     </header>
