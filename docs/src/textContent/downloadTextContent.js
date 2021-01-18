@@ -4,13 +4,14 @@ let translations = {
         homeLink: "Accueil",
         downloadLink: "Téléchargement",
         selectALanguage: "Langue",
+        //download
         pagePresentation: "Vous êtes sur la page de téléchargement ! Vous pouvez ici télécharger de nombreuses versions, pour Windows, MacOS, Linus ou même sans Java.",
         recommendedVersion: "Version recommandée :",
         lastVersion: "Dernière version :",
         withoutJava: "Version sans Java :",
         paragraphes: [
             [
-                "Vous pouvez d'autres versions ",
+                "Vous pouvez trouver d'autres versions ",
                 "ici"
             ],
             "Toutes les actions doivent être exécutée dans le dossier du jeu",
@@ -29,6 +30,11 @@ let translations = {
                 " Avant de lancer, tapez : ",
                 "Puis, démarrer le jeu en double cliquant sur formiko.sh ou avec la commande "
             ]
-        }
+        },
+        //index
+        welcome: "Bienvenue",
+        presentation: "Formiko est un petit jeu ou chaque joueur incarne une reine fourmi et ses descendants, de la fondation de la fourmilière jusqu'a sa supprématie sur le jardin !",
+        trailer: "Regarder la bande annonce",
+        discord: "Rejoindre le Discord"
     }
 }
