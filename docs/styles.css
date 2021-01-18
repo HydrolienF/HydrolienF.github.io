@@ -1,5 +1,7 @@
 body{
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Jokerman', sans-serif;
+  background-color:#B5FEFE;
+  color: black;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -74,7 +76,7 @@ nav ul {
   padding-bottom: 30px;
   background-color: #BCEDA7;
   border-radius: 15px;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Times New Roman', sans-serif;
 }
 
 #discover{
@@ -114,7 +116,7 @@ nav ul {
   border-radius: 15px;
 }
 
-nav ul li{
+nav ul li {
   font-size: 4vh;
   background-color:#51E823;
   color: #4747F3;
@@ -123,7 +125,7 @@ nav ul li{
   padding-right: 20px;
   border-radius: 15px;
   border-style: hidden;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Jokerman', sans-serif;
 }
 
 nav ul li:hover{
@@ -135,7 +137,20 @@ nav ul li a {
   text-decoration: none;
 }
 
-body{
-  background-color:#B5FEFE;
-  color: black;
+
+select {
+  font-size: 4vh;
+  background-color:#51E823;
+  color: #4747F3;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+  border-style: hidden;
+  font-family: 'Jokerman', sans-serif;
+}
+
+nav ul li select:hover{
+  background-color: #309013;
+  transition: width 1s, height 1s, background-color 1s, transform 1s;
 }
