@@ -29,6 +29,7 @@ function translate(){
     document.querySelector("#presentation").textContent = translations.pagePresentation
 
     // downloads
+    document.querySelector("#download").textContent = translations.download
     document.querySelectorAll(".recommended").forEach(elt => elt.textContent = translations.recommendedVersion)
     document.querySelectorAll(".last").forEach(elt => elt.textContent = translations.lastVersion)
 
@@ -44,6 +45,7 @@ function translate(){
     })
 
     // How to launch the game
+    document.querySelector("#howToUse").textContent = translations.howToUse
     Array.from(["windows", "mac"]).forEach(os => {
         document.querySelector(`#${os}`).childNodes[1].textContent = translations["launching"][os]
     })

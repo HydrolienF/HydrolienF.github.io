@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--download.html is an auto generate file. Do not edit it or your modification will be deleted. Edit preDowload.php insted-->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -31,7 +32,7 @@
     </header>
 
     <div id="page">
-      <h2>Download</h2>
+      <h2 id="download">Download</h2>
       <p id="presentation">You're on our download page ! Here, you can download many versions, for Windows, MacOS, Linux and OS without Java.</p>
       <div id="download-frames-container">
         <div class="download-frame">
@@ -71,7 +72,7 @@
       <p>All actions to launch the game have to be executed in its directory.</p>
       <p>Some antivirus blocks the execution of java, it is necessary to authorize the execution of java to play the game.</p>
       <p>If there is not "(32 bit)" in the version name, it use 64 bit java. If your computer is very old you may need a <a href="#https://adoptopenjdk.net/releases.html?variant=openjdk15&jvmVariant=hotspot">32 bit java version</a> on your computer if you want to play.</p>
-      <h3>How to use the game ?</h3>
+      <h3 id="howToUse">How to use the game ?</h3>
       <p id="windows"><span id="bold">Windows :</span> Launch game by double clicking on formiko.bat !</p>
       <p id="mac"><span id="bold">Mac :</span> Launch game by double clicking on formiko.sh or with command line : <code>./formiko.sh</code></p>
       <p id="linux"><span id="bold">Linux :</span> Before the launching : <code>chmod 700 formiko.sh</code> ! Then, start the game by double clicking on formiko.sh or with command line : <code>./formiko.sh</code> !</p>
