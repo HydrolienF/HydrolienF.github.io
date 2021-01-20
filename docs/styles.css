@@ -9,32 +9,31 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
-  font-size: 10vh;
+  font-size: 8vw;
   padding: 2vh 1vh;
 }
 h2{
-  font-size: 5vh;
+  font-size: 4vw;
   padding: 2vh 1vh;
 }
 h3{
-  font-size: 4vh;
+  font-size: 3vw;
   padding: 1vh 0.5vh;
 }
 h4{
-  font-size: 3vh;
+  font-size: 2.3vw;
   padding: 0.7vh 0.5vh;
 }
 h5{
-  font-size: 2.3vh;
+  font-size: 1.8vw;
   padding: 0.7vh 0.2vh;
 }
 h6{
-  font-size: 1.8vh;
+  font-size: 1.2vw;
   padding: 0.7vh 0.2vh;
 }
-h7{
-  font-size: 1.2vh;
-  padding: 0.7vh 0.2vh;
+p{
+  font-size: 1.2vw;
 }
 
 header{
@@ -60,7 +59,7 @@ nav ul {
 #buttons-bar{
   margin-top: -20px;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-left: 5%;
   margin-right: 5%;
@@ -117,7 +116,7 @@ nav ul {
 }
 
 nav ul li {
-  font-size: 4vh;
+  font-size: 2.5vw;
   background-color:#51E823;
   color: #4747F3;
   padding: 10px;
@@ -139,7 +138,7 @@ nav ul li a {
 
 
 select {
-  font-size: 4vh;
+  font-size: 2.5vw;
   background-color:#51E823;
   color: #4747F3;
   padding: 10px;
