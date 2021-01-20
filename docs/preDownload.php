@@ -68,7 +68,7 @@
             🔗 <a href="https://github.com/HydrolienF/Formiko/releases/download/<?php echo $lastVersion ?>/Formiko<?php echo $lastVersion ?>.zip"><?php echo $lastVersion ?></a>
           </div>
       </div>
-      <p>Other versions can be found <a href="https://mega.nz/folder/ioJCQIxC#iepxcJSIExYzui9GQG9RuQ">here</a>.</p>
+      <p>Other versions can be found <a href="https://github.com/HydrolienF/Formiko/releases">here</a> or <a href="https://mega.nz/folder/ioJCQIxC#iepxcJSIExYzui9GQG9RuQ">here</a> for old version.</p>
       <p>All actions to launch the game have to be executed in its directory.</p>
       <p>Some antivirus blocks the execution of java, it is necessary to authorize the execution of java to play the game.</p>
       <p>If there is not "(32 bit)" in the version name, it use 64 bit java. If your computer is very old you may need a <a href="#https://adoptopenjdk.net/releases.html?variant=openjdk15&jvmVariant=hotspot">32 bit java version</a> on your computer if you want to play.</p>

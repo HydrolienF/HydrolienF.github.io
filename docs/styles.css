@@ -2,9 +2,10 @@ body{
   font-family: 'Jokerman', sans-serif;
   background-color:#B5FEFE;
   color: black;
+  font-size: 1.2vw;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, p{
   margin: 0px 0px;
 }
 
@@ -25,7 +26,7 @@ h4{
   padding: 0.7vh 0.5vh;
 }
 h5{
-  font-size: 1.8vw;
+  font-size: 1.4vw;
   padding: 0.7vh 0.2vh;
 }
 h6{
@@ -152,4 +153,15 @@ select {
 nav ul li select:hover{
   background-color: #309013;
   transition: width 1s, height 1s, background-color 1s, transform 1s;
+}
+
+.container { margin: 50px auto 40px auto; width: 600px auto ; text-align: center; }
+
+#suggestions {
+  margin-top: 35px;
+}
+#suggestions a {
+  font-weight: 200;
+  font-size: 14px;
+  margin: 0 10px;
 }
