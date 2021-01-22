@@ -2,39 +2,39 @@ body{
   font-family: 'Jokerman', sans-serif;
   background-color:#B5FEFE;
   color: black;
+  font-size: 1.2vw;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, p{
   margin: 0px 0px;
 }
 
 h1{
-  font-size: 10vh;
+  font-size: 8vw;
   padding: 2vh 1vh;
 }
 h2{
-  font-size: 5vh;
+  font-size: 4vw;
   padding: 2vh 1vh;
 }
 h3{
-  font-size: 4vh;
+  font-size: 3vw;
   padding: 1vh 0.5vh;
 }
 h4{
-  font-size: 3vh;
+  font-size: 2.3vw;
   padding: 0.7vh 0.5vh;
 }
 h5{
-  font-size: 2.3vh;
+  font-size: 1.4vw;
   padding: 0.7vh 0.2vh;
 }
 h6{
-  font-size: 1.8vh;
+  font-size: 1.2vw;
   padding: 0.7vh 0.2vh;
 }
-h7{
-  font-size: 1.2vh;
-  padding: 0.7vh 0.2vh;
+p{
+  font-size: 1.2vw;
 }
 
 header{
@@ -60,7 +60,7 @@ nav ul {
 #buttons-bar{
   margin-top: -20px;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-left: 5%;
   margin-right: 5%;
@@ -117,7 +117,7 @@ nav ul {
 }
 
 nav ul li {
-  font-size: 4vh;
+  font-size: 2.5vw;
   background-color:#51E823;
   color: #4747F3;
   padding: 10px;
@@ -139,7 +139,7 @@ nav ul li a {
 
 
 select {
-  font-size: 4vh;
+  font-size: 2.5vw;
   background-color:#51E823;
   color: #4747F3;
   padding: 10px;
@@ -153,4 +153,15 @@ select {
 nav ul li select:hover{
   background-color: #309013;
   transition: width 1s, height 1s, background-color 1s, transform 1s;
+}
+
+.container { margin: 50px auto 40px auto; width: 600px auto ; text-align: center; }
+
+#suggestions {
+  margin-top: 35px;
+}
+#suggestions a {
+  font-weight: 200;
+  font-size: 14px;
+  margin: 0 10px;
 }

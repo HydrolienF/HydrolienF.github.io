@@ -13,7 +13,10 @@ let translations = {
         paragraphes: [
             [
                 "Vous pouvez trouver d'autres versions ",
-                "ici"
+                "ici",
+                " ou ",
+                "ici",
+                " pour les vielles versions."
             ],
             "Toutes les actions doivent être exécutée dans le dossier du jeu",
             "Certains antivirus peuvent bloquer l'exécution de Java, il est donc nécessaire d'autoriser son exécution pour jouer au jeu",
@@ -52,7 +55,10 @@ let translations = {
         paragraphes: [
             [
                 "Vi povas trovi aliajn versiojn ",
-                "ĉi tie"
+                "ĉi tie",
+                " aŭ ",
+                "ĉi tie",
+                " por la malnovaj versioj."
             ],
             "Ĉiuj agoj devas esti faritaj en la luddosierujo",
             "Iuj antivirusoj povas bloki la ekzekuton de Ĝavo, do necesas rajtigi ĝian ekzekuton por ludi la ludon",
