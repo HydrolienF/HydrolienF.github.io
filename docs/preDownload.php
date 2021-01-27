@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Home - Formiko</title>
+    <title>Download Formiko now !</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="shortcut icon" type="image/png" href="assets/logo.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap">
