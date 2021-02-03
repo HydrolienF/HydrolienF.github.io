@@ -16,7 +16,7 @@
           <li id="button-home-page"><a href="./index.html">Home</a></li>
           <li id="button-download-page"><a href="./download.html">Download</a></li>
           <li id="button-github-page"><a href="https://github.com/HydrolienF/Formiko/">Github</a></li>
-          <li id="button-javadoc-page"><a href="./javadoc/index.html">Javadoc</a></li>
+          <li id="button-javadoc-page"><a href="./Formiko/javadoc/index.html">Javadoc</a></li>
           <li>
             <form action="download.html" method="get">
               <select name="language" id="language" onchange="this.form.submit()">
