@@ -36,15 +36,15 @@
       <p id="presentation">You're on our download page ! Here, you can download many versions, for Windows, MacOS, Linux and OS without Java.</p>
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- Blocs test -->
-        <ins class="adsbygoogle"
+        <ins id="ads" class="adsbygoogle"
         style="display:block"
         data-ad-client="ca-pub-8253423813243235"
         data-ad-slot="4800088274"
         data-ad-format="auto"
         data-full-width-responsive="true"></ins>
         <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
       <p id="presentation">You're on our download page ! Here, you can download many versions, for Windows, MacOS, Linux and OS without Java.</p>
       <div id="download-frames-container">
         <div class="download-frame">

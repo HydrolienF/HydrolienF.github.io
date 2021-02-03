@@ -56,6 +56,9 @@ nav ul {
   background-color: #BCEDA7;
   border-radius: 15px;
 }
+#ads{
+  justify-content: center;
+}
 
 #buttons-bar{
   margin-top: -20px;
