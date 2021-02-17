@@ -5,8 +5,11 @@
     <title></title>
   </head>
   <body>
-    <?php
-      echo "La langue du navigateur est : ".substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2)."";
-    ?>
+    <p>
+      <?php
+        echo "La langue du navigateur est : ".substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2)."";
+      ?>
+      <br>
+    </p>
   </body>
 </html>

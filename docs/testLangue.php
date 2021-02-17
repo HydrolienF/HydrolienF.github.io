@@ -6,8 +6,6 @@
   </head>
   <body>
     <?php
-    print "recherche de la langue"
-    print $langue = autoSelectLanguage(array('fr','en','es','it','de','cn'), 'en');
     /**
      * Détection automatique de la langue du navigateur
      * Les codes langues du tableau $aLanguages doivent obligatoirement être sur 2 caractères
@@ -31,6 +29,9 @@
       }
       return $sDefault;
     }
+    print "recherche de la langue"
+    langue = autoSelectLanguage(array('fr','en','es','it','de','cn'), 'en');
+    print $langue
     ?>
     <p>
     </p>
