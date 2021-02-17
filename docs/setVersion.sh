@@ -10,5 +10,6 @@ cat preDownload.php >> download.php
 php download.php > download.html
 rm download.php
 git add download.html
+git add version.md
 git commit -m "auto releases for version "$1
-git push
+#git push
