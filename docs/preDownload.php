@@ -45,7 +45,6 @@
         <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-      <p id="presentation">You're on our download page ! Here, you can download many versions, for Windows, MacOS, Linux and OS without Java.</p>
       <div id="download-frames-container">
         <div class="download-frame">
           <center><h3>Windows</h3></center>
