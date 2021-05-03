@@ -7,6 +7,14 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="shortcut icon" type="image/png" href="assets/logo.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8S8YXFFEC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-K8S8YXFFEC');
+    </script>
   </head>
   <body>
     <header>
