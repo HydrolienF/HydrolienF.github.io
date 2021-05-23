@@ -1,12 +1,17 @@
-var version = document.querySelector('version');
-var requestURL = 'https://gist.githubusercontent.com/HydrolienF/c7dbc5d2d61b749ff6878e93afdaf53e/raw/version.json';
-var request = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'json';
-request.send();
+const version = document.querySelector('version');
+// const requestURL = 'https://gist.githubusercontent.com/HydrolienF/c7dbc5d2d61b749ff6878e93afdaf53e/raw/version.json';
+// const request = new XMLHttpRequest();
+// request.open('GET', requestURL);
+// request.responseType = 'json';
+// request.send();
+async function setVersion() {
+  const req = await fetch('https://gist.githubusercontent.com/HydrolienF/c7dbc5d2d61b749ff6878e93afdaf53e/raw/version.json');
+  const jsonObj = await req.json();
+  updateVersion(jsonObj);
+}
 function updateVersion(jsonObj) {
-  var lastVersion = jsonObj['lastVersion'];
-  var lastStableVersion = jsonObj['lastStableVersion'];
+  const lastVersion = jsonObj['lastVersion'];
+  const lastStableVersion = jsonObj['lastStableVersion'];
   document.getElementById("lastVersionWindows").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastVersion+"/Formiko"+lastVersion+"Windows.zip";
   document.getElementById("lastVersionWindows").textContent=lastVersion;
   document.getElementById("lastStableVersionWindows").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastStableVersion+"/Formiko"+lastStableVersion+"Windows.zip";
@@ -27,7 +32,8 @@ function updateVersion(jsonObj) {
   document.getElementById("lastStableVersion").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastStableVersion+"/Formiko"+lastStableVersion+".zip";
   document.getElementById("lastStableVersion").textContent=lastStableVersion;
 }
-request.onload = function() {
-  var versionRequest = request.response;
-  updateVersion(versionRequest);
-}
+// request.onload = function() {
+//   const jsonObj = request.response;
+//   updateVersion(jsonObj);
+// }
+setVersion();
