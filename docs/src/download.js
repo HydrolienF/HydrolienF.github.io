@@ -1,17 +1,18 @@
 const queryString = window.location.search
 const urlParams = new URLSearchParams(queryString)
 
-language = "en"
-if(urlParams.get('language')) language = urlParams.get('language')
-
-while(!translations) {
-
+var language = navigator.language || navigator.userLanguage;
+if(urlParams.get('language')) {language = urlParams.get('language')}
+if(language!='eo' && language!='fr' && language!="en"){
+  language="en";
 }
 translate()
+
 function setLanguage(la){
   language=la
   translate()
 }
+
 function translate(){
   console.log(language)
 
