@@ -6,6 +6,8 @@ if(urlParams.get('language')) {language = urlParams.get('language')}
 if(language!='eo' && language!='fr' && language!="en"){
   language="en";
 }
+//TODO use to go to the language part.
+// window.location.replace("./"+language+"/download.html");
 translate()
 
 function setLanguage(la){
