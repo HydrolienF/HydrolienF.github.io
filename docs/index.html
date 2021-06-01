@@ -20,16 +20,16 @@
   <body>
 
     <header>
-      <h1 id="main-title">Formiko</h1>
+      <!-- <h1 id="main-title">Formiko</h1> -->
       <nav>
         <ul id="buttons-bar">
-          <li id="button-home-page"><a href="./index.html">Home</a></li>
-          <li id="button-download-page"><a href="./download.html">Download</a></li>
-          <li id="button-github-page"><a href="https://github.com/HydrolienF/Formiko/">Github</a></li>
-          <li id="button-javadoc-page"><a href="./Formiko/javadoc/index.html">Javadoc</a></li>
+          <li class="mainButton" style="background-color:#F8981D;" id="button-home-page"><a href="./index.html">Home</a></li>
+          <li class="mainButton" id="button-download-page"><a href="./download.html">Download</a></li>
+          <li class="mainButton" id="button-github-page"><a href="https://github.com/HydrolienF/Formiko/">Github</a></li>
+          <li class="mainButton" id="button-javadoc-page"><a href="./Formiko/javadoc/index.html">Javadoc</a></li>
           <li>
             <form action="index.html" method="get">
-              <select name="language" id="language" onchange="this.form.submit()">
+              <select class="mainButton" name="language" id="language" onchange="this.form.submit()">
                 <option id="selectALanguage" value="">Language</option>
                 <option value="en">English</option>
                 <option value="fr">Français</option>
@@ -46,13 +46,17 @@
       <p id="presentation">Formiko is a small game where each player embodies a queen ant and its anthill, from its foundation to its supremacy over the garden !</p>
       <p id="counter_text">formiko.fr have been visited <span id="counter"> -1</span> times !</p>
       <div id="discover">
-        <div>
+        <div id="trailerDiv">
           <h4 id="trailer">Watch the trailer</h4>
-          <iframe id="game-trailer" src="https://www.youtube.com/embed/j7en2o6E-1Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="containerRacio">
+            <iframe class="responsive-iframe" id="game-trailer" src="https://www.youtube.com/embed/j7en2o6E-1Q?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
-        <div>
+        <div id"discordDiv">
           <h4 id="discord">Join the Discord</h4>
-          <iframe id="discord-widget" src="https://discordapp.com/widget?id=728592434577014825&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+          <div class="containerRacio2">
+            <iframe class="responsive-iframe" id="discord-widget" src="https://discordapp.com/widget?id=728592434577014825&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+          </div>
         </div>
       </div>
     </div>

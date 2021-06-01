@@ -6,7 +6,6 @@
     <title>Download Formiko now !</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="shortcut icon" type="image/png" href="assets/logo.png">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8S8YXFFEC"></script>
     <script>
@@ -18,16 +17,16 @@
   </head>
   <body>
     <header>
-      <h1 id="main-title">Formiko</h1>
+      <!-- <h1 id="main-title">Formiko</h1> -->
       <nav>
         <ul id="buttons-bar">
-          <li id="button-home-page"><a href="./index.html">Home</a></li>
-          <li id="button-download-page"><a href="./download.html">Download</a></li>
-          <li id="button-github-page"><a href="https://github.com/HydrolienF/Formiko/">Github</a></li>
-          <li id="button-javadoc-page"><a href="./Formiko/javadoc/index.html">Javadoc</a></li>
-          <li style="margin: 0px 0px 0px 0px; padding: 0 0 0 0;">
-            <form action="download.html" method="get">
-              <select name="language" id="language" onchange="this.form.submit()">
+          <li class="mainButton" id="button-home-page"><a href="./index.html">Home</a></li>
+          <li class="mainButton" style="background-color:#F8981D;" id="button-download-page"><a href="./download.html">Download</a></li>
+          <li class="mainButton" id="button-github-page"><a href="https://github.com/HydrolienF/Formiko/">Github</a></li>
+          <li class="mainButton" id="button-javadoc-page"><a href="./Formiko/javadoc/index.html">Javadoc</a></li>
+          <li>
+            <form action="index.html" method="get">
+              <select class="mainButton" name="language" id="language" onchange="this.form.submit()">
                 <option id="selectALanguage" value="">Language</option>
                 <option value="en">English</option>
                 <option value="fr">Français</option>
@@ -53,6 +52,16 @@
         <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
+        <div id="download-frames-container1">
+          <div class="download-frame">
+            <center><h3>For You !</h3></center>
+            <!-- ICI Le bouton pour télécharger en 1 clic. -->
+            <button type="button" disabled>
+              <a id="lastStableVersionChooseOs" href="https://github.com/HydrolienF/Formiko/releases/download/1.27.1/Formiko1.27.1Windows.zip">x.x.x</a>
+            </button>
+          </div>
+        </div>
+        <a id="showMore" href="" onclick="javascript:visibilite('download-frames-container'); return false;">show more</a>
       <div id="download-frames-container">
         <div class="download-frame">
           <center><h3>Windows</h3></center>
@@ -63,29 +72,29 @@
           🔗 <a id="lastVersionWindows" href="https://github.com/HydrolienF/Formiko/releases/download/1.33.9/Formiko1.33.9Windows.zip">1.33.9</a>
         </div>
         <div class="download-frame">
-            <center><h3>Mac</h3></center>
-            <!-- ICI METTRE LES LIENS POUR MACOS -->
-            <h5 class="recommended">Recommended: </h5>
-            🐞 <a id="lastStableVersionMac"href="https://github.com/HydrolienF/Formiko/releases/download/1.27.1/Formiko1.27.1Mac.zip">1.27.1</a>
-            <h5 class="last">Last: </h5>
-            🔗 <a id="lastVersionMac" href="https://github.com/HydrolienF/Formiko/releases/download/1.33.9/Formiko1.33.9Mac.zip">1.33.9</a>
-          </div>
-          <div class="download-frame">
-            <center><h3>Linux</h3></center>
-            <!-- ICI METTRE LES LIENS POUR LINUX -->
-            <h5 class="recommended">Recommended: </h5>
-            🐞 <a id="lastStableVersionLinux" href="https://github.com/HydrolienF/Formiko/releases/download/1.27.1/Formiko1.27.1Linux.zip">1.27.1</a>
-            <h5 class="last">Last: </h5>
-            🔗 <a id="lastVersionLinux" href="https://github.com/HydrolienF/Formiko/releases/download/1.33.9/Formiko1.33.9Linux.zip">1.33.9</a>
-          </div>
-          <div class="download-frame">
-            <center><h3>Without Java</h3></center>
-            <!-- ICI METTRE LES LIENS SANS JAVA -->
-            <h5 class="recommended">Recommended: </h5>
-            🐞 <a id="lastStableVersion" href="https://github.com/HydrolienF/Formiko/releases/download/1.27.1/Formiko1.27.1.zip">1.27.1</a>
-            <h5 class="last">Last: </h5>
-            🔗 <a id="lastVersion" href="https://github.com/HydrolienF/Formiko/releases/download/1.33.9/Formiko1.33.9.zip">1.33.9</a>
-          </div>
+          <center><h3>Mac</h3></center>
+          <!-- ICI METTRE LES LIENS POUR MACOS -->
+          <h5 class="recommended">Recommended: </h5>
+          🐞 <a id="lastStableVersionMac"href="https://github.com/HydrolienF/Formiko/releases/download/1.27.1/Formiko1.27.1Mac.zip">1.27.1</a>
+          <h5 class="last">Last: </h5>
+          🔗 <a id="lastVersionMac" href="https://github.com/HydrolienF/Formiko/releases/download/1.33.9/Formiko1.33.9Mac.zip">1.33.9</a>
+        </div>
+        <div class="download-frame">
+          <center><h3>Linux</h3></center>
+          <!-- ICI METTRE LES LIENS POUR LINUX -->
+          <h5 class="recommended">Recommended: </h5>
+          🐞 <a id="lastStableVersionLinux" href="https://github.com/HydrolienF/Formiko/releases/download/1.27.1/Formiko1.27.1Linux.zip">1.27.1</a>
+          <h5 class="last">Last: </h5>
+          🔗 <a id="lastVersionLinux" href="https://github.com/HydrolienF/Formiko/releases/download/1.33.9/Formiko1.33.9Linux.zip">1.33.9</a>
+        </div>
+        <div class="download-frame">
+          <center><h3>Without Java</h3></center>
+          <!-- ICI METTRE LES LIENS SANS JAVA -->
+          <h5 class="recommended">Recommended: </h5>
+          🐞 <a id="lastStableVersion" href="https://github.com/HydrolienF/Formiko/releases/download/1.27.1/Formiko1.27.1.zip">1.27.1</a>
+          <h5 class="last">Last: </h5>
+          🔗 <a id="lastVersion" href="https://github.com/HydrolienF/Formiko/releases/download/1.33.9/Formiko1.33.9.zip">1.33.9</a>
+        </div>
       </div>
       <p>Other versions can be found <a href="https://github.com/HydrolienF/Formiko/releases">here</a> or <a href="https://mega.nz/folder/ioJCQIxC#iepxcJSIExYzui9GQG9RuQ">here</a> for old version.</p>
       <p>All actions to launch the game have to be executed in its directory.</p>
