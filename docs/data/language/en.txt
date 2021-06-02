@@ -13,7 +13,7 @@ bonvenon:welcome
 csenoAntauxfilmo:Watch the trailer
 csenoDiscord:Join the Discord
 vizitantoNombrilo.1:have been visited
-vizitantoNombrilo.2:fojoj
+vizitantoNombrilo.2:times
 
 //download.html
 titoloElsxuti:Download Formiko now
