@@ -7,6 +7,7 @@ lingvo:lingvo
 
 //index.thml
 titoloIndekso:Hejmo - Formiko - Formika ludo
+priskriboIndekso:Formiko estas malgranda ludo, kie ĉiu ludanto enkorpigas reĝinan formikon kaj ŝiajn posteulojn, de la fundamento de la formikejo ĝis ĝia subpremado en la ĝardeno
 csenoPrezentado:Formiko estas malgranda ludo, kie ĉiu ludanto enkorpigas reĝinan formikon kaj ŝiajn posteulojn, de la fundamento de la formikejo ĝis ĝia subpremado en la ĝardeno
 bonvenon:bonvenon
 csenoAntauxfilmo:Spektu la antaŭfilmon
@@ -16,6 +17,7 @@ vizitantoNombrilo.2:fojoj
 
 //download.html
 titoloElsxuti:elŝutu Formiko nun
+priskriboElsxuti:Elŝutu plej novan version de Formiko ! Disponebla por Vindozo, Mac kaj Linukso
 rekomendita:rekomendita
 lasta:lasta
 perVi:per vi

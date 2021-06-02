@@ -7,6 +7,7 @@ lingvo:langue
 
 //index.thml
 titoloIndekso:Accueil - Formiko - Un jeu de fourmi
+priskriboIndekso:Formiko est un petit jeu ou chaque joueur incarne une reine fourmi et ses descendants, de la fondation de la fourmilière jusqu'a sa supprématie sur le jardin
 csenoPrezentado:Formiko est un petit jeu ou chaque joueur incarne une reine fourmi et ses descendants, de la fondation de la fourmilière jusqu'a sa supprématie sur le jardin
 bonvenon:bienvenue
 csenoAntauxfilmo:Regarder la bande annonce
@@ -16,6 +17,7 @@ vizitantoNombrilo.2:fois
 
 //download.html
 titoloElsxuti:Télécharger Formiko maintenant
+priskriboElsxuti:Télécharger la dernière version de Formiko ! Disponible pour Windows, Mac & Linux
 rekomendita:Recommandé
 lasta:Dernière
 perVi:pour vous
