@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--All index.html pages are create with 1 page. Edit this page to edit all pages.-->
+<html lang="{languageKey}" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>{titleIndex}</title>
+    <meta id="presentation" name="description" content="{strPresentation} !">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="assets/logo.png">
+  </head>
+  <body>
+
+    <header>
+      <h1 id="main-title">Formiko</h1>
+      <nav>
+        <ul id="buttons-bar">
+          <li id="button-home-page"><a href="./index.html">{home}</a></li>
+          <li id="button-download-page"><a href="./download.html">{download}</a></li>
+          <li id="button-github-page"><a href="https://github.com/HydrolienF/Formiko/">Github</a></li>
+          <li id="button-javadoc-page"><a href="./Formiko/javadoc/index.html">Javadoc</a></li>
+          <li>
+            <form action="index.html" method="get">
+              <select name="language" id="language" onchange="this.form.submit()">
+                <option id="selectALanguage" value="">{language}</option>
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="eo">Esperanto</option>
+              </select>
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="page">
+      <h2 id="welcome">{welcome}</h2>
+      <p id="presentation">{strPresentation}</p>
+      <div id="discover">
+        <div>
+          <h4 id="trailer">{strTrailer}</h4>
+          <iframe id="game-trailer" src="https://www.youtube.com/embed/j7en2o6E-1Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+          <h4 id="discord">{strDiscord}</h4>
+          <iframe id="discord-widget" src="https://discordapp.com/widget?id=728592434577014825&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src='./src//textContent//downloadTextContent.js'></script>
+    <script type="text/javascript" src='./src/index.js'></script>
+    <script data-ad-client="ca-pub-8253423813243235" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </body>
+</html>

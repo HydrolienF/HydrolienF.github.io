@@ -6,7 +6,8 @@ if(urlParams.get('language')) {language = urlParams.get('language')}
 if(language!='eo' && language!='fr' && language!="en"){
   language="en";
 }
-translate()
+// translate()
+document.location.href=language+"/index.html";
 
 function setLanguage(la){
   language=la

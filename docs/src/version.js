@@ -8,7 +8,32 @@ async function setVersion() {
   const req = await fetch('https://gist.githubusercontent.com/HydrolienF/c7dbc5d2d61b749ff6878e93afdaf53e/raw/version.json');
   const jsonObj = await req.json();
   updateVersion(jsonObj);
+  loadPersonalizedChoice(jsonObj);
 }
+
+async function loadPersonalizedChoice(jsonObj){
+  var os = navigator.oscpu || navigator.platform
+  var osName = "null";
+  // alert ("The os is: " + os);
+  // alert (navigator.platform);
+  if(os.includes("win") || os.includes("Win")){
+    osName="Windows";
+    visibilite("download-frames-container");
+  }else if(os.includes("linux")){
+    osName="Linux";
+    visibilite("download-frames-container");
+  }else if(os.includes("mac")){
+    osName="Mac";
+    visibilite("download-frames-container");
+  }else{
+    visibilite("download-frames-container1");
+    return;
+  }
+  const lastStableVersion = jsonObj['lastStableVersion'];
+  document.getElementById("lastStableVersionChooseOs").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastStableVersion+"/Formiko"+lastStableVersion+osName+".zip";
+  document.getElementById("lastStableVersionChooseOs").textContent=osName+" "+lastStableVersion;
+}
+
 function updateVersion(jsonObj) {
   const lastVersion = jsonObj['lastVersion'];
   const lastStableVersion = jsonObj['lastStableVersion'];
@@ -37,3 +62,15 @@ function updateVersion(jsonObj) {
 //   updateVersion(jsonObj);
 // }
 setVersion();
+
+function visibilite(itemName){
+  document.querySelectorAll('#'+itemName).forEach((item, i) => {
+    if (item.style.display == "none"){
+      item.style.display = "" ;
+      //TODO print hide insted.
+      // document.getElementById("lastStableVersion").textContent="hide";
+    } else {
+      item.style.display = "none" ;
+    }
+  });
+}

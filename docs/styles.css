@@ -89,18 +89,26 @@ nav ul {
 }
 
 #game-trailer{
-  width: 50vw;
-  height: 50vh;
+  /* max-width: 100%; */
+  /* width: 50vw;
+  height: 50vh; */
   border-radius: 15px;
 }
 
-#discord-widget{
+/* #discord-widget{
   height: 50vh;
   border-radius: 15px;
-}
+} */
 
 #page p{
   margin-top: 0;
+}
+
+#download-frames-container1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px;
 }
 
 #download-frames-container{
@@ -108,6 +116,7 @@ nav ul {
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 30px;
+  /* display:none; */
 }
 
 .download-frame{
@@ -119,7 +128,7 @@ nav ul {
   border-radius: 15px;
 }
 
-nav ul li {
+.mainButton {
   font-size: 2.5vw;
   background-color:#51E823;
   color: #4747F3;
@@ -131,12 +140,12 @@ nav ul li {
   font-family: 'Jokerman', sans-serif;
 }
 
-nav ul li:hover{
+.mainButton:hover{
   background-color: #309013;
   transition: width 1s, height 1s, background-color 1s, transform 1s;
 }
 
-nav ul li a {
+nav ul a {
   text-decoration: none;
 }
 
@@ -145,9 +154,10 @@ select {
   font-size: 2.5vw;
   background-color:#51E823;
   color: #4747F3;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0;
+  /* padding: 10px; */
+  /* padding-left: 20px;
+  padding-right: 20px; */
   border-radius: 15px;
   border-style: hidden;
   font-family: 'Jokerman', sans-serif;
@@ -168,3 +178,34 @@ nav ul li select:hover{
   font-size: 14px;
   margin: 0 10px;
 }
+
+.containerRatio {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  padding-top: 56.25%;
+}
+.containerRatio2 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 135%;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+#trailerDiv{
+  width: 50vw;
+}
+/* #discordDiv{
+  width: 4vw;
+} */

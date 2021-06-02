@@ -1,0 +1,25 @@
+//global
+lingvaSxlosilo:en
+//header
+hejmo:home
+elsxuti:download
+lingvo:language
+
+//index.thml
+titoloIndekso:Home - Formiko - A game about ant
+csenoPrezentado:Formiko is a small game where each player embodies a queen ant and its anthill, from its foundation to its supremacy over the garden
+bonvenon:welcome
+csenoAntauxfilmo:Watch the trailer
+csenoDiscord:Join the Discord
+vizitantoNombrilo.1:have been visited
+vizitantoNombrilo.2:fojoj
+
+//download.html
+titoloElsxuti:Download Formiko now
+rekomendita:Recommended
+lasta:Last
+perVi:for you
+montruPli:show more
+senJava:Without Java
+csenoCxiaVersio: all versions can be found
+cxiTie:here

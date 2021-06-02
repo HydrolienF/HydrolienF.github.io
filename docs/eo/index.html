@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hejmo - Formiko - Formika ludo</title>
+    <meta id="presentation" name="description" content="Formiko is a small game where each player embodies a queen ant and its anthill, from its foundation to its supremacy over the garden !">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <link rel="shortcut icon" type="image/png" href="../assets/logo.png">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8S8YXFFEC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-K8S8YXFFEC');
+    </script>
+    <script src="../src/count.js" defer></script>
+  </head>
+  <body>
+
+    <header>
+      <!-- <h1 id="main-title">Formiko</h1> -->
+      <nav>
+        <ul id="buttons-bar">
+          <a href="index.html"><li class="mainButton" style="background-color:#F8981D;" id="button-home-page">Hejmo</li></a>
+          <a href="download.html"><li class="mainButton" id="button-download-page">Elŝuti</li></a>
+          <a href="https://github.com/HydrolienF/Formiko/"><li class="mainButton" id="button-github-page">Github</li></a>
+          <a href="Formiko/javadoc/index.html"><li class="mainButton" id="button-javadoc-page">Javadoc</li></a>
+          <li>
+            <script>
+              function swapLanguage(){
+                language = document.forms[0].elements[0].value;
+                document.location.href="../"+language+"/index.html";
+              }
+            </script>
+            <form action="." method="get">
+              <select class="mainButton" name="language" id="language" onchange="swapLanguage()">
+                <option id="selectALanguage" value="">Lingvo</option>
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="eo">Esperanto</option>
+              </select>
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="page">
+      <h2 id="welcome">Bonvenon</h2>
+      <p id="presentation">Formiko estas malgranda ludo, kie ĉiu ludanto enkorpigas reĝinan formikon kaj ŝiajn posteulojn, de la fundamento de la formikejo ĝis ĝia subpremado en la ĝardeno !</p>
+      <p id="counter_text">formiko.fr estis vizitita <span id="counter"> -1</span> fojoj !</p>
+      <div id="discover">
+        <div id="trailerDiv">
+          <h4 id="trailer">spektu la antaŭfilmon</h4>
+          <div class="containerRatio">
+            <iframe class="responsive-iframe" id="game-trailer" src="https://www.youtube.com/embed/j7en2o6E-1Q?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div id"discordDiv">
+          <h4 id="discord">rekuniĝu la Discord</h4>
+          <div class="containerRatio2">
+            <iframe class="responsive-iframe" id="discord-widget" src="https://discordapp.com/widget?id=728592434577014825&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script data-ad-client="ca-pub-8253423813243235" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </body>
+</html>

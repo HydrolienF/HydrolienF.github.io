@@ -1,0 +1,25 @@
+//global
+lingvaSxlosilo:fr
+//header
+hejmo:accueil
+elsxuti:téléchargement
+lingvo:langue
+
+//index.thml
+titoloIndekso:Accueil - Formiko - Un jeu de fourmi
+csenoPrezentado:Formiko est un petit jeu ou chaque joueur incarne une reine fourmi et ses descendants, de la fondation de la fourmilière jusqu'a sa supprématie sur le jardin
+bonvenon:bienvenue
+csenoAntauxfilmo:Regarder la bande annonce
+csenoDiscord:Rejoindre le Discord
+vizitantoNombrilo.1:a été visité
+vizitantoNombrilo.2:fois
+
+//download.html
+titoloElsxuti:Télécharger Formiko maintenant
+rekomendita:Recommandé
+lasta:Dernière
+perVi:pour vous
+montruPli:afficher plus
+senJava:Sans Java
+csenoCxiaVersio: toutes les versions sont
+cxiTie:ici
