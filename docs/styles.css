@@ -6,7 +6,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6, p{
-  margin: 0px 0px;
+  margin: 0 0;
 }
 
 h1{
@@ -41,6 +41,7 @@ header{
   margin-top: 30px;
   margin-left: 10%;
   margin-right: 10%;
+  justify-content: space-around;
 }
 
 nav ul {
@@ -92,7 +93,7 @@ nav ul {
   /* max-width: 100%; */
   /* width: 50vw;
   height: 50vh; */
-  border-radius: 15px;
+  border-radius: 2vw;
 }
 
 /* #discord-widget{
@@ -132,10 +133,11 @@ nav ul {
   font-size: 2.5vw;
   background-color:#51E823;
   color: #4747F3;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 15px;
+  margin: 0.2vw;
+  padding: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-radius: 1.5vw;
   border-style: hidden;
   font-family: 'Jokerman', sans-serif;
 }
@@ -168,7 +170,11 @@ nav ul li select:hover{
   transition: width 1s, height 1s, background-color 1s, transform 1s;
 }
 
-.container { margin: 50px auto 40px auto; width: 600px auto ; text-align: center; }
+.container {
+  margin: 50px auto 40px auto;
+  width: 600px auto ;
+  text-align: center;
+}
 
 #suggestions {
   margin-top: 35px;
