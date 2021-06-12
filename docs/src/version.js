@@ -30,16 +30,20 @@ async function loadPersonalizedChoice(jsonObj){
     return;
   }
   const lastStableVersion = jsonObj['lastStableVersion'];
-  document.getElementById("lastStableVersionChooseOs").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastStableVersion+"/Formiko"+lastStableVersion+osName+".zip";
+  if (osName=="Windows") {
+    document.getElementById("lastStableVersionChooseOs").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastStableVersion+"/Formiko"+lastStableVersion+".msi";
+  }else{
+    document.getElementById("lastStableVersionChooseOs").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastStableVersion+"/Formiko"+lastStableVersion+osName+".zip";
+  }
   document.getElementById("lastStableVersionChooseOs").textContent=osName+" "+lastStableVersion;
 }
 
 function updateVersion(jsonObj) {
   const lastVersion = jsonObj['lastVersion'];
   const lastStableVersion = jsonObj['lastStableVersion'];
-  document.getElementById("lastVersionWindows").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastVersion+"/Formiko"+lastVersion+"Windows.zip";
+  document.getElementById("lastVersionWindows").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastVersion+"/Formiko"+lastVersion+".msi";
   document.getElementById("lastVersionWindows").textContent=lastVersion;
-  document.getElementById("lastStableVersionWindows").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastStableVersion+"/Formiko"+lastStableVersion+"Windows.zip";
+  document.getElementById("lastStableVersionWindows").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastStableVersion+"/Formiko"+lastStableVersion+"msi";
   document.getElementById("lastStableVersionWindows").textContent=lastStableVersion;
 
   document.getElementById("lastVersionMac").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastVersion+"/Formiko"+lastVersion+"Mac.zip";
