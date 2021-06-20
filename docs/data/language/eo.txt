@@ -4,6 +4,7 @@ lingvaSxlosilo:fr
 hejmo:Hejmo
 elsxuti:elŝuti
 lingvo:lingvo
+neFunkcianta:ne funkcias nuntempe
 
 //index.thml
 titoloIndekso:Hejmo - Formiko - Formika ludo
@@ -25,3 +26,7 @@ montruPli:montru pli
 senJava:sen Java
 csenoCxiaVersio: ĉia versioj estas
 cxiTie:ĉi tie
+kontrauxvirusiloBlokasLudon:iuj antivirusoj blokas la ekzekuton de Java, necesas rajtigi la ekzekuton de Formiko & Java por ludi la ludon
+kielLancxiFormikon:kiel lanĉi Formikon
+windowsLancxi:lanĉu ludon por la 1a fojo per duobla alklako sur formiko.msi ! Kaj uzu la ŝparvojon sur via labortablo por la sekva fojo
+linuxLancxi:lanĉu ludon per duobla klako sur formiko.sh aŭ per komandlinio

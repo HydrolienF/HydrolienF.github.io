@@ -4,6 +4,7 @@ lingvaSxlosilo:fr
 hejmo:accueil
 elsxuti:téléchargement
 lingvo:langue
+neFunkcianta:Ne fonctionne pas pour l'instant
 
 //index.thml
 titoloIndekso:Accueil - Formiko - Un jeu de fourmi
@@ -25,3 +26,7 @@ montruPli:afficher plus
 senJava:Sans Java
 csenoCxiaVersio: toutes les versions sont
 cxiTie:ici
+kontrauxvirusiloBlokasLudon:certains antivirus bloquent l'exécution de Java, il faut autoriser l'exécution de Formiko & Java pour jouer au jeu
+kielLancxiFormikon:Comment lancer Formiko
+windowsLancxi:lancez le jeu pour la 1ère fois en double-cliquant sur formiko.msi ! Et utilisez le raccourci sur votre bureau pour les prochaines fois
+linuxLancxi:lancez le jeu en double-cliquant sur formiko.sh ou en ligne de commande

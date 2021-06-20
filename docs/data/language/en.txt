@@ -4,6 +4,7 @@ lingvaSxlosilo:en
 hejmo:home
 elsxuti:download
 lingvo:language
+neFunkcianta:not working for now
 
 //index.thml
 titoloIndekso:Home - Formiko - A game about ant
@@ -25,3 +26,7 @@ montruPli:show more
 senJava:Without Java
 csenoCxiaVersio: all versions can be found
 cxiTie:here
+kontrauxvirusiloBlokasLudon:some antivirus blocks the execution of Java, it is necessary to authorize the execution of Formiko & Java to play the game
+kielLancxiFormikon:how to launch Formiko
+windowsLancxi:launch game for the 1st time by double clicking on formiko.msi ! And use the shortcut on your desktop for the next time
+linuxLancxi:launch game by double clicking on formiko.sh or with command line
