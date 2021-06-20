@@ -46,10 +46,11 @@ function updateVersion(jsonObj) {
   document.getElementById("lastStableVersionWindows").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastStableVersion+"/Formiko"+lastStableVersion+"msi";
   document.getElementById("lastStableVersionWindows").textContent=lastStableVersion;
 
-  document.getElementById("lastVersionMac").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastVersion+"/Formiko"+lastVersion+"Mac.zip";
-  document.getElementById("lastVersionMac").textContent=lastVersion;
-  document.getElementById("lastStableVersionMac").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastStableVersion+"/Formiko"+lastStableVersion+"Mac.zip";
-  document.getElementById("lastStableVersionMac").textContent=lastStableVersion;
+  //TODO #393
+  // document.getElementById("lastVersionMac").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastVersion+"/Formiko"+lastVersion+"Mac.zip";
+  // document.getElementById("lastVersionMac").textContent=lastVersion;
+  // document.getElementById("lastStableVersionMac").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastStableVersion+"/Formiko"+lastStableVersion+"Mac.zip";
+  // document.getElementById("lastStableVersionMac").textContent=lastStableVersion;
 
   document.getElementById("lastVersionLinux").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastVersion+"/Formiko"+lastVersion+"Linux.zip";
   document.getElementById("lastVersionLinux").textContent=lastVersion;
