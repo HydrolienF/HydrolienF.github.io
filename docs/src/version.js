@@ -23,7 +23,7 @@ async function loadPersonalizedChoice(jsonObj){
     osName="Linux";
     visibilite("download-frames-container");
   }else if(os.includes("mac")){
-    osName="Mac";
+    // osName="Mac"; //TODO #393
     visibilite("download-frames-container");
   }else{
     visibilite("download-frames-container1");
