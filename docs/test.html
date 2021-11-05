@@ -6,16 +6,24 @@
   </head>
   <body>
     <script>
+      // $.ajax({
+      //   type: 'HEAD',
+      //   url: 'http://formiko.fr/eo/index.html',
+      //   success: function() {
+      //           document.write("http://formiko.fr/eo/index.html")
+      //   },
+      //   error: function() {
+      //           document.write("Not found")
+      //   }
+      // });
       $.ajax({
-        type: 'HEAD',
-        url: 'http://formiko.fr/eo/index.html',
-        success: function() {
-                document.write("http://formiko.fr/eo/index.html")
-        },
-        error: function() {
-                document.write("Not found")
-        }
-      });
+          url: "http://formiko.fr",
+          type: "HEAD"
+      }).done(function() {
+            alert('Site existe!');
+      }).fail(function() {
+            alert('Site não existe!');
+      })
     </script>
   </body>
 </html>
