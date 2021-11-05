@@ -43,7 +43,7 @@ function updateVersion(jsonObj) {
   const lastStableVersion = jsonObj['lastStableVersion'];
   document.getElementById("lastVersionWindows").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastVersion+"/Formiko"+lastVersion+".msi";
   document.getElementById("lastVersionWindows").textContent=lastVersion;
-  document.getElementById("lastStableVersionWindows").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastStableVersion+"/Formiko"+lastStableVersion+"msi";
+  document.getElementById("lastStableVersionWindows").href = "https://github.com/HydrolienF/Formiko/releases/download/"+lastStableVersion+"/Formiko"+lastStableVersion+".msi";
   document.getElementById("lastStableVersionWindows").textContent=lastStableVersion;
 
   //TODO #393
