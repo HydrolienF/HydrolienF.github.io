@@ -24,10 +24,11 @@
       // }).fail(function() {
       //       alert('Site não existe!');
       // })
-function returnStatus(req, status) {
+function returnStatus(req, status, address) {
   //console.log(req);
   if(status == 200) {
     console.log("The url is available");
+    document.write(address)
     // send an event
   }
   else {
@@ -41,7 +42,7 @@ function fetchStatus(address) {
  client.onreadystatechange = function() {
   // in case of network errors this might not give reliable results
   if(this.readyState == 4)
-   returnStatus(this, this.status);
+   returnStatus(this, this.status, address);
  }
  client.open("HEAD", address);
  client.send();
