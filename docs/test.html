@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+  </head>
+  <body>
+    <script>
+      $.ajax({
+        type: 'HEAD',
+        url: 'http://formiko.fr/eo/index.html',
+        success: function() {
+                "http://formiko.fr/eo/index.html"
+        },
+        error: function() {
+                "Not found"
+        }
+      });
+    </script>
+  </body>
+</html>
