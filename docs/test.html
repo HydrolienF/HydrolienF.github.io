@@ -24,30 +24,31 @@
       // }).fail(function() {
       //       alert('Site não existe!');
       // })
-      function returnStatus(req, status) {
-        //console.log(req);
-        if(status == 200) {
-          console.log("The url is available");
-          // send an event
-        }
-        else {
-          console.log("The url returned status code " + status);
-          // send a different event
-        }
-      }
+function returnStatus(req, status) {
+  //console.log(req);
+  if(status == 200) {
+    console.log("The url is available");
+    // send an event
+  }
+  else {
+    console.log("The url returned status code " + status);
+    // send a different event
+  }
+}
 
-      function fetchStatus(address) {
-       var client = new XMLHttpRequest();
-       client.onreadystatechange = function() {
-        // in case of network errors this might not give reliable results
-        if(this.readyState == 4)
-         returnStatus(this, this.status);
-       }
-       client.open("HEAD", address);
-       client.send();
-      }
-
-      fetchStatus("/");
+function fetchStatus(address) {
+ var client = new XMLHttpRequest();
+ client.onreadystatechange = function() {
+  // in case of network errors this might not give reliable results
+  if(this.readyState == 4)
+   returnStatus(this, this.status);
+ }
+ client.open("HEAD", address);
+ client.send();
+}
+for (var i = 1; i < 9; i++) {
+  fetchStatus("https://an-dante.fr/histoires-de-supervision-"+i+"/");
+}
     </script>
   </body>
 </html>
