@@ -13,10 +13,11 @@ async function setVersion() {
 
 async function loadPersonalizedChoice(jsonObj){
   var os = navigator.oscpu || navigator.platform
+  os=os.toLowerCase();
   var osName = "null";
   // alert ("The os is: " + os);
   // alert (navigator.platform);
-  if(os.includes("win") || os.includes("Win")){
+  if(os.includes("win")){
     osName="Windows";
     visibilite("download-frames-container");
   }else if(os.includes("linux")){
@@ -26,7 +27,7 @@ async function loadPersonalizedChoice(jsonObj){
     // osName="Mac"; //TODO #393
     visibilite("download-frames-container");
   }else{
-    alert ("Os not identified, os is: " + os);
+    // alert ("Os not identified, os is: " + os);
     visibilite("download-frames-container1");
     return;
   }
