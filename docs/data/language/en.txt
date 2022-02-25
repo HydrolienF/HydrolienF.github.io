@@ -23,6 +23,7 @@ rekomendita:Recommended
 lasta:Last
 perVi:for you
 montruPli:show more
+montruMalPli:hide
 senJava:Without Java
 csenoCxiaVersio: all versions can be found
 cxiTie:here
