@@ -26,6 +26,7 @@ async function loadPersonalizedChoice(jsonObj){
     // osName="Mac"; //TODO #393
     visibilite("download-frames-container");
   }else{
+    alert ("Os not identified, os is: " + os);
     visibilite("download-frames-container1");
     return;
   }
