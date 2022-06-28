@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <button type="button" name="button">Detect OS</button>
+  </body>
+</html>
+
+<script type="text/javascript">
+  var detectOS = "Unknown OS";
+
+  if (navigator.appVersion.indexOf("Win") != -1)
+      detectOS = "Windows";
+
+  if (navigator.appVersion.indexOf("Mac") != -1)
+      detectOS = "MacOS";
+
+  if (navigator.appVersion.indexOf("Linux") != -1)
+      detectOS = "Linux";
+
+  document.querySelector('button').addEventListener('click', detect);
+
+  function detect() {
+     alert(`Device OS is: ${detectOS}`)
+  }
+</script>

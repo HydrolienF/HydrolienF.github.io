@@ -13,20 +13,22 @@ async function setVersion() {
 
 async function loadPersonalizedChoice(jsonObj){
   var os = navigator.oscpu || navigator.platform
+  os=os.toLowerCase();
   var osName = "null";
   // alert ("The os is: " + os);
   // alert (navigator.platform);
-  if(os.includes("win") || os.includes("Win")){
+  if(os.includes("win")){
     osName="Windows";
-    visibilite("download-frames-container");
+    swapVisibility("download-frames-container");
   }else if(os.includes("linux")){
     osName="Linux";
-    visibilite("download-frames-container");
+    swapVisibility("download-frames-container");
   }else if(os.includes("mac")){
     // osName="Mac"; //TODO #393
-    visibilite("download-frames-container");
+    swapVisibility("download-frames-container");
   }else{
-    visibilite("download-frames-container1");
+    // alert ("Os not identified, os is: " + os);
+    swapVisibility("download-frames-container1");
     return;
   }
   const lastStableVersion = jsonObj['lastStableVersion'];
@@ -68,14 +70,17 @@ function updateVersion(jsonObj) {
 // }
 setVersion();
 
-function visibilite(itemName){
+// swap visibility
+function swapVisibility(itemName){
   document.querySelectorAll('#'+itemName).forEach((item, i) => {
     if (item.style.display == "none"){
       item.style.display = "" ;
-      //TODO print hide insted.
-      // document.getElementById("lastStableVersion").textContent="hide";
+      document.getElementById("showMore").style.display = "none";
+      document.getElementById("hide").style.display = "";
     } else {
       item.style.display = "none" ;
+      document.getElementById("showMore").style.display = "";
+      document.getElementById("hide").style.display = "none";
     }
   });
 }
