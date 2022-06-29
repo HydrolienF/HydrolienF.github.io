@@ -20,21 +20,30 @@
               <li class="mainButton"><a href="../usual/javadoc/index.html">Usual</a></li>
               <li class="mainButton"><a href="../FormikoLauncher/javadoc/index.html">Formiko launcher</a></li>
             </ul> -->
-            <!-- <form action="." method="get">
-              <select class="mainButton" name="language" id="language" onchange="swapLanguage()">
+            <script>
+              function goJavaDoc(){
+                javadoc = document.forms[0].elements[0].value;
+                htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/'));
+                document.location.href=window.location.origin+"/"+javadoc+"/javadoc/index.html";
+                // document.location.href="../"+javadoc+"/javadoc/index.html";
+              }
+            </script>
+            <form action="." method="get">
+              <select class="mainButton" name="language" id="language" onchange="goJavaDoc()">
                 <option id="selectAJavadoc" value="">Javadoc</option>
-                <option value="Formiko"><a href="../Formiko/javadoc/index.html">Formiko</a></option>
+                <option value="Formiko">Formiko</option>
                 <option value="usual"><a href="../usual/javadoc/index.html">Usual</a></option>
                 <option value="FormikoLauncher"><a href="../FormikoLauncher/javadoc/index.html">Formiko launcher</a></option>
               </select>
-            </form> -->
+            </form>
           </li>
           <li>
             <script>
               function swapLanguage(){
                 language = document.forms[0].elements[0].value;
                 htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/'));
-                document.location.href="../"+language+htmlFile;
+                document.location.href=window.location.origin+"/"+language+htmlFile;
+                // document.location.href="../"+language+htmlFile;
               }
             </script>
             <form action="." method="get">
