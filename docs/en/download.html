@@ -32,14 +32,14 @@
           <li>
             <script>
               function goJavaDoc(){
-                javadoc = document.forms[0].elements[0].value;
+                javadoc = document.getElementById("javadocForm").elements[0].value;
                 htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/'));
                 document.location.href=window.location.origin+"/"+javadoc+"/javadoc/index.html";
                 // document.location.href="../"+javadoc+"/javadoc/index.html";
               }
             </script>
             <form action="." method="get">
-              <select class="mainButton" name="language" id="language" onchange="goJavaDoc()">
+              <select class="mainButton" name="language" id="javadocForm" onchange="goJavaDoc()">
                 <option id="selectAJavadoc" value="">Javadoc</option>
                 <option value="Formiko">Formiko</option>
                 <option value="usual">Usual</option>
@@ -50,14 +50,14 @@
           <li>
             <script>
               function swapLanguage(){
-                language = document.forms[0].elements[0].value;
+                language = document.getElementById("languageForm").elements[0].value;
                 htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/'));
-                // document.location.href=window.location.origin+"/"+language+htmlFile;
-                document.location.href="../"+language+htmlFile;
+                document.location.href=window.location.origin+"/"+language+htmlFile;
+                // document.location.href="../"+language+htmlFile;
               }
             </script>
             <form action="." method="get">
-              <select class="mainButton" name="language" id="language" onchange="swapLanguage()">
+              <select class="mainButton" name="language" id="languageForm" onchange="swapLanguage()">
                 <option id="selectALanguage" value="">Language</option>
                 <option value="en">English</option>
                 <option value="fr">Français</option>
