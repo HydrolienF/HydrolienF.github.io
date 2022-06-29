@@ -54,8 +54,8 @@
               function swapLanguage(){
                 language = document.forms[0].elements[0].value;
                 htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/'));
-                document.location.href=window.location.origin+"/"+language+htmlFile;
-                // document.location.href="../"+language+htmlFile;
+                // document.location.href=window.location.origin+"/"+language+htmlFile;
+                document.location.href="../"+language+htmlFile;
               }
             </script>
             <form action="." method="get">
