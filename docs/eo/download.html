@@ -19,9 +19,7 @@
   <body>
 
     <!--
-// TODO use it for all download & index (all languages)
 // TODO use it for javadoc
-// TODO redirect on same page insted of language+"/download.html
 // TODO replace javadoc by a list with "Formiko", "Usual", "Formiko Launcher"
 -->
 
@@ -31,14 +29,32 @@
       <nav>
         <ul id="buttons-bar">
           <a href="index.html"><li class="mainButton" id="button-home-page">Hejmo</li></a>
-          <a href="download.html"><li class="mainButton" style="background-color:#F8981D;" id="button-download-page">Elŝuti</li></a>
+          <a href="download.html"><li class="mainButton" id="button-download-page">Elŝuti</li></a>
+          <!-- style="background-color:#F8981D;" -->
           <a href="https://github.com/HydrolienF/Formiko/"><li class="mainButton" id="button-github-page">Github</li></a>
-          <a href="../Formiko/javadoc/index.html"><li class="mainButton" id="button-javadoc-page">Javadoc</li></a>
+          <!-- <a href="../Formiko/javadoc/index.html"><li class="mainButton" id="button-javadoc-page">Javadoc</li></a> -->
+          <li>
+            <!-- <ul>
+              <li class="mainButton">Javadoc</li>
+              <li class="mainButton"><a href="../Formiko/javadoc/index.html">Formiko</a></li>
+              <li class="mainButton"><a href="../usual/javadoc/index.html">Usual</a></li>
+              <li class="mainButton"><a href="../FormikoLauncher/javadoc/index.html">Formiko launcher</a></li>
+            </ul> -->
+            <!-- <form action="." method="get">
+              <select class="mainButton" name="language" id="language" onchange="swapLanguage()">
+                <option id="selectAJavadoc" value="">Javadoc</option>
+                <option value="Formiko"><a href="../Formiko/javadoc/index.html">Formiko</a></option>
+                <option value="usual"><a href="../usual/javadoc/index.html">Usual</a></option>
+                <option value="FormikoLauncher"><a href="../FormikoLauncher/javadoc/index.html">Formiko launcher</a></option>
+              </select>
+            </form> -->
+          </li>
           <li>
             <script>
               function swapLanguage(){
                 language = document.forms[0].elements[0].value;
-                document.location.href="../"+language+"/download.html";
+                htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/'));
+                document.location.href="../"+language+htmlFile;
               }
             </script>
             <form action="." method="get">
