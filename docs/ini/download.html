@@ -17,33 +17,8 @@
     </script>
   </head>
   <body>
-    <header>
-      <!-- <h1 id="main-title">Formiko</h1> -->
-      <nav>
-        <ul id="buttons-bar">
-          <a href="index.html"><li class="mainButton" id="button-home-page">€{Hejmo}</li></a>
-          <a href="download.html"><li class="mainButton" style="background-color:#F8981D;" id="button-download-page">€{Elsxuti}</li></a>
-          <a href="https://github.com/HydrolienF/Formiko/"><li class="mainButton" id="button-github-page">Github</li></a>
-          <a href="../Formiko/javadoc/index.html"><li class="mainButton" id="button-javadoc-page">Javadoc</li></a>
-          <li>
-            <script>
-              function swapLanguage(){
-                language = document.forms[0].elements[0].value;
-                document.location.href="../"+language+"/download.html";
-              }
-            </script>
-            <form action="." method="get">
-              <select class="mainButton" name="language" id="language" onchange="swapLanguage()">
-                <option id="selectALanguage" value="">€{Lingvo}</option>
-                <option value="en">English</option>
-                <option value="fr">Français</option>
-                <option value="eo">Esperanto</option>
-              </select>
-            </form>
-          </li>
-        </ul>
-      </nav>
-    </header>
+
+    €{cmd:include _header.html}
 
     <div id="page">
       <!-- <h2 id="download">€{Elsxuti}</h2> -->
