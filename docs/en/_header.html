@@ -19,8 +19,8 @@
                 // document.location.href="../"+javadoc+"/javadoc/index.html";
               }
             </script>
-            <form action="." method="get">
-              <select class="mainButton" name="language" id="javadocForm" onchange="goJavaDoc()">
+            <form action="." method="get" id="javadocForm">
+              <select class="mainButton" name="language" onchange="goJavaDoc()">
                 <option id="selectAJavadoc" value="">Javadoc</option>
                 <option value="Formiko">Formiko</option>
                 <option value="usual">Usual</option>
@@ -37,8 +37,8 @@
                 // document.location.href="../"+language+htmlFile;
               }
             </script>
-            <form action="." method="get">
-              <select class="mainButton" name="language" id="languageForm" onchange="swapLanguage()">
+            <form action="." method="get" id="languageForm">
+              <select class="mainButton" name="language" onchange="swapLanguage()">
                 <option id="selectALanguage" value="">Language</option>
                 <option value="en">English</option>
                 <option value="fr">Français</option>
