@@ -21,26 +21,12 @@
 // TODO use it for javadoc
 -->
 
-    <script type="text/javascript">
-      window.onload = function() {
-        ini();
-      };
-      function ini() {
-        htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/')+1);
-        if(htmlFile.includes("index")){
-          document.getElementById("button-home-page").setAttribute('style','background-color:#F8981D;');
-        }else if(htmlFile.includes("download")){
-          document.getElementById("button-download-page").setAttribute('style','background-color:#F8981D;');
-        }else if(htmlFile.includes("javadoc")){
-          document.getElementById("javadocForm").setAttribute('style','background-color:#F8981D;');
-        }
-      }
-    </script>
     <header onload="ini()">
       <nav>
         <ul id="buttons-bar">
           <a href="index.html"><li class="mainButton" id="button-home-page">Accueil</li></a>
           <a href="download.html"><li class="mainButton" id="button-download-page">Téléchargement</li></a>
+          <a href="https://tipeee.com/formiko"><li class="mainButton" id="button-support-page">Support</li></a>
           <a href="https://github.com/HydrolienF/Formiko/"><li class="mainButton" id="button-github-page">Github</li></a>
           <li>
             <script type="text/javascript">
@@ -80,6 +66,23 @@
         </ul>
       </nav>
     </header>
+    <script type="text/javascript">
+      // window.onload = function() {
+      //   ini();
+      // };
+      function ini() {
+        htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/')+1);
+        if(htmlFile.includes("index")){
+          document.getElementById("button-home-page").setAttribute('style','background-color:#F8981D;');
+        }else if(htmlFile.includes("download")){
+          document.getElementById("button-download-page").setAttribute('style','background-color:#F8981D;');
+        }else if(htmlFile.includes("javadoc")){
+          document.getElementById("javadocForm").setAttribute('style','background-color:#F8981D;');
+        }
+      }
+      // Don't work probably because document is not well formed there.
+      ini();
+    </script>
 
 
     <div id="page">
