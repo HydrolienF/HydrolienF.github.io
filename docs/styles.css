@@ -226,10 +226,15 @@ select {
 }
 
 .modal-content {
-  width: 80vw;
-  height: 80vh;
-  background: yellow;
+  width: 3.8vw;
+  height: 3.8vw;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.modal-content img {
+  max-width: 100%;
+  max-height: 100%;
+  /* display: block; */
 }
