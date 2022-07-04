@@ -224,3 +224,12 @@ select {
   /* width: 55; */
   /* height: 55; */
 }
+
+.modal-content {
+  width: 80vw;
+  height: 80vh;
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
