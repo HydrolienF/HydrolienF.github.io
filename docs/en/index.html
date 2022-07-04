@@ -26,10 +26,26 @@
     <header onload="ini()">
       <nav>
         <ul id="buttons-bar">
-          <a href="index.html"><li class="mainButton" id="button-home-page">Home</li></a>
-          <a href="download.html"><li class="mainButton" id="button-download-page">Download</li></a>
-          <a href="https://tipeee.com/formiko"><li class="mainButton" id="button-support-page">Support</li></a>
-          <a href="https://github.com/HydrolienF/Formiko/"><li class="mainButton" id="button-github-page">Github</li></a>
+          <a href="index.html"><li title="Home" class="mainButton" id="button-home-page">
+            <img src="../data/images/homeWebSiteLink.png" alt="Home" width="55" height="55" class="centeredIcon">
+            <!-- Home -->
+          </li></a>
+          <a href="download.html"><li class="mainButton" id="button-download-page">
+            <img src="../data/images/downloadLink.png" title="Download" alt="Download" width="55" height="55" class="centeredIcon">
+            <!-- Download -->
+          </li></a>
+          <a href="https://tipeee.com/formiko"><li class="mainButton" id="button-discord-page">
+            <img src="../data/images/discordLink.png" title="Discord" alt="Discord" width="55" height="55" class="centeredIcon">
+            <!-- Discord -->
+          </li></a>
+          <a href="https://tipeee.com/formiko"><li class="mainButton" id="button-support-page">
+            <img src="../data/images/supportGameLink.png" title="Support" alt="Support" width="55" height="55" class="centeredIcon">
+            <!-- Support -->
+          </li></a>
+          <a href="https://github.com/HydrolienF/Formiko/"><li class="mainButton" id="button-github-page">
+            <img src="../data/images/githubLink.png" title="Github" alt="Github" width="55" height="55" class="centeredIcon">
+            <!-- Github -->
+          </li></a>
           <li>
             <script type="text/javascript">
               function goJavaDoc(){
@@ -39,8 +55,12 @@
               }
             </script>
             <form action="." method="get" id="javadocForm">
-              <select class="mainButton" name="language" onchange="goJavaDoc()">
-                <option id="selectAJavadoc" value="">Javadoc</option>
+              <!-- <img src="../data/images/javadocLink.png" alt="Javadoc" width="55" height="55" class="centeredIcon"> -->
+              <select name="language" onchange="goJavaDoc()" class="mainButton">
+                <option id="selectAJavadoc" value="">
+                  📙
+                  <!-- Javadoc -->
+                </option>
                 <option value="Formiko">Formiko</option>
                 <option value="usual">Usual</option>
                 <option value="FormikoLauncher">Launcher</option>
@@ -57,8 +77,11 @@
               }
             </script>
             <form action="." method="get" id="languageForm">
-              <select class="mainButton" name="language" onchange="swapLanguage()">
-                <option id="selectALanguage" value="">Language</option>
+              <select name="language" onchange="swapLanguage()" class="mainButton">
+                <option id="selectALanguage" value="">
+                  🅰️↔🈶
+                  <!-- Language -->
+                </option>
                 <option value="en">English</option>
                 <option value="fr">Français</option>
                 <option value="eo">Esperanto</option>
@@ -69,9 +92,6 @@
       </nav>
     </header>
     <script type="text/javascript">
-      // window.onload = function() {
-      //   ini();
-      // };
       function ini() {
         htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/')+1);
         if(htmlFile.includes("index")){
@@ -82,7 +102,6 @@
           document.getElementById("javadocForm").setAttribute('style','background-color:#F8981D;');
         }
       }
-      // Don't work probably because document is not well formed there.
       ini();
     </script>
 

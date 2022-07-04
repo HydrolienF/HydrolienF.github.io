@@ -5,10 +5,26 @@
     <header onload="ini()">
       <nav>
         <ul id="buttons-bar">
-          <a href="index.html"><li class="mainButton" id="button-home-page">€{Hejmo}</li></a>
-          <a href="download.html"><li class="mainButton" id="button-download-page">€{Elsxuti}</li></a>
-          <a href="https://tipeee.com/formiko"><li class="mainButton" id="button-support-page">€{Support}</li></a>
-          <a href="https://github.com/HydrolienF/Formiko/"><li class="mainButton" id="button-github-page">Github</li></a>
+          <a href="index.html"><li title="€{Hejmo}" class="mainButton" id="button-home-page">
+            <img src="../data/images/homeWebSiteLink.png" alt="€{Hejmo}" width="55" height="55" class="centeredIcon">
+            <!-- €{Hejmo} -->
+          </li></a>
+          <a href="download.html"><li title="€{Elsxuti}" class="mainButton" id="button-download-page">
+            <img src="../data/images/downloadLink.png" alt="€{Elsxuti}" width="55" height="55" class="centeredIcon">
+            <!-- €{Elsxuti} -->
+          </li></a>
+          <a href="https://tipeee.com/formiko"><li title="€{Discord}" class="mainButton" id="button-discord-page">
+            <img src="../data/images/discordLink.png" alt="Discord" width="55" height="55" class="centeredIcon">
+            <!-- Discord -->
+          </li></a>
+          <a href="https://tipeee.com/formiko"><li title="€{Support} class="mainButton" id="button-support-page">
+            <img src="../data/images/supportGameLink.png"" alt="€{Support}" width="55" height="55" class="centeredIcon">
+            <!-- €{Support} -->
+          </li></a>
+          <a href="https://github.com/HydrolienF/Formiko/"><li title="Github" class="mainButton" id="button-github-page">
+            <img src="../data/images/githubLink.png" alt="Github" width="55" height="55" class="centeredIcon">
+            <!-- Github -->
+          </li></a>
           <li>
             <script type="text/javascript">
               function goJavaDoc(){
@@ -18,8 +34,12 @@
               }
             </script>
             <form action="." method="get" id="javadocForm">
-              <select class="mainButton" name="language" onchange="goJavaDoc()">
-                <option id="selectAJavadoc" value="">Javadoc</option>
+              <!-- <img src="../data/images/javadocLink.png" alt="Javadoc" width="55" height="55" class="centeredIcon"> -->
+              <select name="language" onchange="goJavaDoc()" class="mainButton">
+                <option id="selectAJavadoc" value="">
+                  📙
+                  <!-- Javadoc -->
+                </option>
                 <option value="Formiko">Formiko</option>
                 <option value="usual">Usual</option>
                 <option value="FormikoLauncher">Launcher</option>
@@ -36,8 +56,11 @@
               }
             </script>
             <form action="." method="get" id="languageForm">
-              <select class="mainButton" name="language" onchange="swapLanguage()">
-                <option id="selectALanguage" value="">€{Lingvo}</option>
+              <select name="language" onchange="swapLanguage()" class="mainButton">
+                <option id="selectALanguage" value="">
+                  🅰️↔🈶
+                  <!-- €{Lingvo} -->
+                </option>
                 <option value="en">English</option>
                 <option value="fr">Français</option>
                 <option value="eo">Esperanto</option>
