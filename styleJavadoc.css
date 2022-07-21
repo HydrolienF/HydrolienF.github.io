@@ -187,8 +187,7 @@ ul.nav-list li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* margin-left: 2%;
-  margin-right: 2%; */
+  margin: 0px 4px 0px 4px;
   text-transform:uppercase;
     list-style:none;
     float:left;

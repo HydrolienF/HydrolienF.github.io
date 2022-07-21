@@ -30,9 +30,9 @@
           document.location.href=window.location.origin+"/"+javadoc+"/javadoc/index.html";
         }
       </script>
-      <form action="." method="get" id="javadocForm">
+      <form action="." method="get">
         <!-- <img src="/data/images/javadocLink.png" alt="Javadoc" width="55" height="55" class="centeredIcon"> -->
-        <select name="language" onchange="goJavaDoc()" class="mainButton">
+        <select name="language" onchange="goJavaDoc()" class="mainButton" id="javadocForm">
           <option id="selectAJavadoc" value="">
             📙
             <!-- Javadoc -->
