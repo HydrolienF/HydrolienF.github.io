@@ -47,7 +47,7 @@ nav ul li {
 }
 
 nav ul li:hover{
-  background-color: #309013;
+  background-color: #F8981D;
   transition: width 1s, height 1s, background-color 1s, transform 1s;
 }
 
@@ -56,6 +56,6 @@ nav ul li a {
 }
 
 nav ul li select:hover{
-  background-color: #309013;
+  background-color: #F8981D;
   transition: width 1s, height 1s, background-color 1s, transform 1s;
 }

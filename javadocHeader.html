@@ -1,51 +1,51 @@
-&#60;nav&#62;
-  &#60;ul id="buttons-bar"&#62;
-    &#60;a href="/"&#62;&#60;li title="Home" class="mainButton" id="button-home-page"&#62;
-      &#60;!-- &#60;div class="modal-content"&#62; --&#62;
-        &#60;img src="/data/images/homeWebSiteLink.png" alt="Home" width="55" height="55" class="centeredIcon"&#62;
-      &#60;!-- &#60;/div&#62; --&#62;
-      &#60;!-- Home --&#62;
-    &#60;/li&#62;&#60;/a&#62;
-    &#60;a href="/download"&#62;&#60;li title="Download" class="mainButton" id="button-download-page"&#62;
-      &#60;img src="/data/images/downloadLink.png" alt="Download" width="55" height="55" class="centeredIcon"&#62;
-      &#60;!-- Download --&#62;
-    &#60;/li&#62;&#60;/a&#62;
-    &#60;a href="https://discord.gg/vqvfGzf"&#62;&#60;li title="Discord" class="mainButton" id="button-discord-page"&#62;
-      &#60;img src="/data/images/discordLink.png" alt="Discord" width="55" height="55" class="centeredIcon"&#62;
-      &#60;!-- Discord --&#62;
-    &#60;/li&#62;&#60;/a&#62;
-    &#60;a href="https://tipeee.com/formiko"&#62;&#60;li title="Support" class="mainButton" id="button-support-page"&#62;
-      &#60;img src="/data/images/supportGameLink.png" alt="Support" width="55" height="55" class="centeredIcon"&#62;
-      &#60;!-- Support --&#62;
-    &#60;/li&#62;&#60;/a&#62;
-    &#60;a href="https://github.com/HydrolienF/Formiko/"&#62;&#60;li title="Github" class="mainButton" id="button-github-page"&#62;
-      &#60;img src="/data/images/githubLink.png" alt="Github" width="55" height="55" class="centeredIcon"&#62;
-      &#60;!-- Github --&#62;
-    &#60;/li&#62;&#60;/a&#62;
-    &#60;li&#62;
-      &#60;script type="text/javascript"&#62;
+<nav>
+  <ul id="buttons-bar">
+    <a href="/"><li title="Home" class="mainButton" id="button-home-page">
+      <!-- <div class="modal-content"> -->
+        <img src="/data/images/homeWebSiteLink.png" alt="Home" width="55" height="55" class="centeredIcon">
+      <!-- </div> -->
+      <!-- Home -->
+    </li></a>
+    <a href="/download"><li title="Download" class="mainButton" id="button-download-page">
+      <img src="/data/images/downloadLink.png" alt="Download" width="55" height="55" class="centeredIcon">
+      <!-- Download -->
+    </li></a>
+    <a href="https://discord.gg/vqvfGzf"><li title="Discord" class="mainButton" id="button-discord-page">
+      <img src="/data/images/discordLink.png" alt="Discord" width="55" height="55" class="centeredIcon">
+      <!-- Discord -->
+    </li></a>
+    <a href="https://tipeee.com/formiko"><li title="Support" class="mainButton" id="button-support-page">
+      <img src="/data/images/supportGameLink.png" alt="Support" width="55" height="55" class="centeredIcon">
+      <!-- Support -->
+    </li></a>
+    <a href="https://github.com/HydrolienF/Formiko/"><li title="Github" class="mainButton" id="button-github-page">
+      <img src="/data/images/githubLink.png" alt="Github" width="55" height="55" class="centeredIcon">
+      <!-- Github -->
+    </li></a>
+    <li>
+      <script type="text/javascript">
         function goJavaDoc(){
           javadoc = document.getElementById("javadocForm").elements[0].value;
           htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/'));
           document.location.href=window.location.origin+"/"+javadoc+"/javadoc/index.html";
         }
-      &#60;/script&#62;
-      &#60;form action="." method="get" id="javadocForm"&#62;
-        &#60;!-- &#60;img src="/data/images/javadocLink.png" alt="Javadoc" width="55" height="55" class="centeredIcon"&#62; --&#62;
-        &#60;select name="language" onchange="goJavaDoc()" class="mainButton"&#62;
-          &#60;option id="selectAJavadoc" value=""&#62;
+      </script>
+      <form action="." method="get" id="javadocForm">
+        <!-- <img src="/data/images/javadocLink.png" alt="Javadoc" width="55" height="55" class="centeredIcon"> -->
+        <select name="language" onchange="goJavaDoc()" class="mainButton">
+          <option id="selectAJavadoc" value="">
             📙
-            &#60;!-- Javadoc --&#62;
-          &#60;/option&#62;
-          &#60;option value="Formiko"&#62;Formiko&#60;/option&#62;
-          &#60;option value="usual"&#62;Usual&#60;/option&#62;
-          &#60;option value="FormikoLauncher"&#62;Launcher&#60;/option&#62;
-        &#60;/select&#62;
-      &#60;/form&#62;
-    &#60;/li&#62;
-  &#60;/ul&#62;
-&#60;/nav&#62;
-&#60;script type="text/javascript"&#62;
+            <!-- Javadoc -->
+          </option>
+          <option value="Formiko">Formiko</option>
+          <option value="usual">Usual</option>
+          <option value="FormikoLauncher">Launcher</option>
+        </select>
+      </form>
+    </li>
+  </ul>
+</nav>
+<script type="text/javascript">
   function ini() {
     htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/')+1);
     if(document.location.href.includes("javadoc")){
@@ -57,4 +57,4 @@
     }
   }
   ini();
-&#60;/script&#62;
+</script>
