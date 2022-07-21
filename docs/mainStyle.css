@@ -75,3 +75,7 @@ nav ul li select:hover{
   background-color: #F8981D;
   transition: width 1s, height 1s, background-color 1s, transform 1s;
 }
+
+#navbar-toogle-button{
+  display:none;
+}
