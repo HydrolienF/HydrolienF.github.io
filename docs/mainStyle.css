@@ -35,10 +35,12 @@ nav ul {
   background-color:#51E800;
   color: #4747F3;
   margin: 0.2vw;
-  padding: 5px;
-  padding-left: 2px;
-  padding-right: 2px;
-  border-radius: 1.5vw;
+  /* padding: 0.5vw; */
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  padding-top: 0.8vw;
+  padding-bottom: 0.4vw;
+  border-radius: 0.5vw;
   border-style: hidden;
   font-family: 'Jokerman', sans-serif;
 }
