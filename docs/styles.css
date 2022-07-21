@@ -1,3 +1,6 @@
+@import url("/mainStyle.css");
+
+
 body{
   font-family: 'Jokerman', sans-serif;
   background-color:#B5FEFE;
@@ -129,25 +132,6 @@ nav ul {
   border-radius: 15px;
 }
 
-.mainButton {
-  font-size: 2.5vw;
-  background-color:#51E800;
-  color: #4747F3;
-  margin: 0.2vw;
-  /* padding: 0.5vw; */
-  padding-left: 1.5vw;
-  padding-right: 1.5vw;
-  padding-top: 0.8vw;
-  padding-bottom: 0.4vw;
-  border-radius: 1.5vw;
-  border-style: hidden;
-  font-family: 'Jokerman', sans-serif;
-}
-
-.mainButton:hover{
-  background-color: #F8981D;
-  transition: width 1s, height 1s, background-color 1s, transform 1s;
-}
 
 nav ul a {
   text-decoration: none;
