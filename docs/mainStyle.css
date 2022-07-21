@@ -55,10 +55,8 @@ nav ul li {
   font-size: 1vw;
   background-color:#51E823;
   color: #4747F3;
-  padding: 5px;
-  padding-left: 2px;
-  padding-right: 2px;
-  border-radius: 15px;
+  padding: 0px;
+  border-radius: 0px;
   border-style: hidden;
   font-family: 'Jokerman', sans-serif;
 }
