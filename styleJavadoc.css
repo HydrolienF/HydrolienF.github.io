@@ -210,9 +210,7 @@ ul.sub-nav-list li {
     padding-top:10px;
 }
 ul.sub-nav-list-small li {
-    list-style:none;
-    float:left;
-    padding-top:10px;
+    display: none;
 }
 .top-nav a:link, .top-nav a:active, .top-nav a:visited {
     /* color:#FFFFFF; */
@@ -811,9 +809,6 @@ table.striped > tbody > tr > th {
         padding: 6px;
     }
     ul.sub-nav-list li {
-        padding-top: 5px;
-    }
-    ul.sub-nav-list-small li {
         padding-top: 5px;
     }
     main {
