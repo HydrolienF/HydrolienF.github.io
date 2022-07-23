@@ -124,12 +124,18 @@ nav ul {
 }
 
 .download-frame{
-  background-color:#8792FC;
-  width: 260px;
-  height: 300px;
-  padding-left: 10px;
-  padding-right: 10px;
+  background-color:#51E800;
+  width: 24vw;
+  height: 6vw;
+  /* padding-left: 10px;
+  padding-right: 10px; */
   border-radius: 15px;
+  margin: 1vw;
+}
+
+.download-frame:hover{
+  background-color: #F8981D;
+  transition: width 1s, height 1s, background-color 1s, transform 1s;
 }
 
 

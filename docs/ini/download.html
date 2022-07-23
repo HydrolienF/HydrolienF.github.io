@@ -24,69 +24,57 @@
       <!-- <p id="presentation">You're on our download page ! Here, you can download many versions, for Windows, MacOS, Linux and OS without Java.</p> -->
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- Blocs test -->
-        <ins id="ads" class="adsbygoogle"
+      <ins id="ads" class="adsbygoogle"
         style="display:block"
         data-ad-client="ca-pub-8253423813243235"
         data-ad-slot="4800088274"
         data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
+        data-full-width-responsive="true">
+      </ins>
         <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-        <div id="download-frames-container1">
+        <!-- <div id="download-frames-container1">
           <div class="download-frame">
             <center><h3>€{PerVi} !</h3></center>
-            <!-- ICI Le bouton pour télécharger en 1 clic. -->
-            <button type="button" disabled>
-              <a id="lastStableVersionChooseOs" href="https://github.com/HydrolienF/Formiko/releases/download/1.27.1/Formiko1.27.1Windows.zip">x.x.x</a>
-            </button>
+            <a id="lastStableVersionChooseOs" href="https://github.com/HydrolienF/Formiko/releases/download/1.27.1/Formiko1.27.1Windows.zip">x.x.x</a>
           </div>
         </div>
         <a id="showMore" href="" onclick="javascript:swapVisibility('download-frames-container'); return false;">€{MontruPli}</a>
-        <a id="hide" href="" onclick="javascript:swapVisibility('download-frames-container'); return false;">€{MontruMalPli}</a>
+        <a id="hide" href="" onclick="javascript:swapVisibility('download-frames-container'); return false;">€{MontruMalPli}</a> -->
+
+
       <div id="download-frames-container">
-        <div class="download-frame">
-          <center><h3>Windows</h3></center>
-          <!-- ICI METTRE LES LIENS POUR WINDOWS -->
-          <h5 class="recommended">€{Rekomendita} : </h5>
-          🐞 <a id="lastStableVersionWindows" href="https://github.com/HydrolienF/Formiko/releases/download/1.27.1/Formiko1.27.1Windows.zip">1.27.1</a>
-          <h5 class="last">€{Lasta} : </h5>
-          🔗 <a id="lastVersionWindows" href="https://github.com/HydrolienF/Formiko/releases/download/1.33.9/Formiko1.33.9Windows.zip">1.33.9</a>
-        </div>
-        <div class="download-frame">
-          <center><h3>Mac</h3></center>
-          <p>€{NeFunkcianta}.</p>
-          <!-- TODO #393 -->
-          <!-- ICI METTRE LES LIENS POUR MACOS -->
-          <!-- <h5 class="recommended">€{Rekomendita} : </h5>
-          🐞 <a id="lastStableVersionMac"href="https://github.com/HydrolienF/Formiko/releases/download/1.27.1/Formiko1.27.1Mac.zip">1.27.1</a>
-          <h5 class="last">€{Lasta} : </h5>
-          🔗 <a id="lastVersionMac" href="https://github.com/HydrolienF/Formiko/releases/download/1.33.9/Formiko1.33.9Mac.zip">1.33.9</a> -->
-        </div>
-        <div class="download-frame">
-          <center><h3>Linux</h3></center>
-          <!-- ICI METTRE LES LIENS POUR LINUX -->
-          <h5 class="recommended">€{Rekomendita} : </h5>
-          🐞 <a id="lastStableVersionLinux" href="https://github.com/HydrolienF/Formiko/releases/download/1.27.1/Formiko1.27.1Linux.zip">1.27.1</a>
-          <h5 class="last">€{Lasta} : </h5>
-          🔗 <a id="lastVersionLinux" href="https://github.com/HydrolienF/Formiko/releases/download/1.33.9/Formiko1.33.9Linux.zip">1.33.9</a>
-        </div>
-        <div class="download-frame">
-          <center><h3>€{SenJava}</h3></center>
-          <!-- ICI METTRE LES LIENS SANS JAVA -->
-          <h5 class="recommended">€{Rekomendita} : </h5>
-          🐞 <a id="lastStableVersion" href="https://github.com/HydrolienF/Formiko/releases/download/1.27.1/Formiko1.27.1.zip">1.27.1</a>
-          <h5 class="last">€{Lasta} : </h5>
-          🔗 <a id="lastVersion" href="https://github.com/HydrolienF/Formiko/releases/download/1.33.9/Formiko1.33.9.zip">1.33.9</a>
-        </div>
+        <a href="https://github.com/HydrolienF/FormikoLauncher/releases/latest/download/FormikoLauncher.msi">
+          <div class="download-frame">
+            <center><h3>Windows</h3></center>
+          </div>
+        </a>
+        <a href="https://github.com/HydrolienF/FormikoLauncher/releases/latest/download/FormikoLauncher.dmg">
+          <div class="download-frame">
+            <center><h3>Mac</h3></center>
+          </div>
+        </a>
+        <a href="https://github.com/HydrolienF/FormikoLauncher/releases/latest/download/FormikoLauncher.deb">
+          <div class="download-frame">
+            <center><h3>Linux (.deb)</h3></center>
+          </div>
+        </a>
+        <a href="https://github.com/HydrolienF/FormikoLauncher/releases">
+          <div class="download-frame">
+            <center><h3>€{SenJava}</h3></center>
+          </div>
+        </a>
       </div>
-      <p>€{CsenoCxiaVersio} <a href="https://github.com/HydrolienF/Formiko/releases">€{cxiTie}</a>.</p>
+
+
+      <!-- <p>€{CsenoCxiaVersio} <a href="https://github.com/HydrolienF/Formiko/releases">€{cxiTie}</a>.</p> -->
       <!-- <p>All actions to launch the game have to be executed in its directory.</p> -->
-      <p>€{KontrauxvirusiloBlokasLudon}.</p>
+      <!-- <p>€{KontrauxvirusiloBlokasLudon}.</p> -->
       <!-- <p>If there is not "(32 bit)" in the version name, it use 64 bit java. If your computer is very old you may need a <a href="#https://adoptopenjdk.net/releases.html?variant=openjdk15&jvmVariant=hotspot">32 bit java version</a> on your computer if you want to play.</p> -->
-      <h3>€{KielLancxiFormikon} ?</h3>
+      <!-- <h3>€{KielLancxiFormikon} ?</h3>
       <p><span id="bold">Windows :</span> €{WindowsLancxi}.</p>
-      <p><span id="bold">Linux :</span> €{LinuxLancxi} : <code>./formiko.sh</code></p>
+      <p><span id="bold">Linux :</span> €{LinuxLancxi} : <code>./formiko.sh</code></p> -->
     </div>
 
     <script type="text/javascript" src='../src/version.js'></script>
