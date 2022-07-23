@@ -75,12 +75,12 @@
     <script type="text/javascript">
       function ini() {
         htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/')+1);
-        if(htmlFile.includes("index")){
+        if(document.location.href.includes("javadoc")){
+          document.getElementById("javadocForm").setAttribute('style','background-color:#F8981D;');
+        }else if(htmlFile.includes("index")){
           document.getElementById("button-home-page").setAttribute('style','background-color:#F8981D;');
         }else if(htmlFile.includes("download")){
           document.getElementById("button-download-page").setAttribute('style','background-color:#F8981D;');
-        }else if(htmlFile.includes("javadoc")){
-          document.getElementById("javadocForm").setAttribute('style','background-color:#F8981D;');
         }
       }
       ini();
