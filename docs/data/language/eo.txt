@@ -30,4 +30,15 @@ cxiTie:ĉi tie
 kontrauxvirusiloBlokasLudon:iuj antivirusoj blokas la ekzekuton de Java, necesas rajtigi la ekzekuton de Formiko & Java por ludi la ludon
 kielLancxiFormikon:kiel lanĉi Formikon
 windowsLancxi:lanĉu ludon por la 1a fojo per duobla alklako sur formiko.msi ! Kaj uzu la ŝparvojon sur via labortablo por la sekva fojo
-linuxLancxi:lanĉu ludon per duobla klako sur formiko.sh aŭ per komandlinio
+
+//tanksForDownloading
+viSxatasLudo:Ni esperas, ke vi ŝatos la ludon!
+donacoPerFormiko:Formiko vivi per via donacojn
+helpuNinTipeee:Helpu nin en Tipeee
+elsxutoHelpiEtapoPerEtapo:Se vi havas problemojn, vidi la paŝo post paŝo instalado
+
+linuxInstali:Por instali la ludon lanĉu en terminalo:
+linuxLancxi:Por lanĉi la ludon post instali lanĉu en terminalo:
+windowsInstali:Por instali la ludon, duobla klako en instalilo en via Elŝuto/ dosierujo
+windowsLancxi:Por lanĉi la ludon uzi la ŝparvojo en via labortablo
+macInstali:1 fina etapo. Mi ne havas 100$/jarojn por havi oficialan Apple Store-apon, do post aldoni formiko kiel apon, vi devos ruli komandlinion por povi lanĉi ĝin:

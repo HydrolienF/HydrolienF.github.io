@@ -30,4 +30,15 @@ cxiTie:ici
 kontrauxvirusiloBlokasLudon:certains antivirus bloquent l'exécution de Java, il faut autoriser l'exécution de Formiko & Java pour jouer au jeu
 kielLancxiFormikon:Comment lancer Formiko
 windowsLancxi:lancez le jeu pour la 1ère fois en double-cliquant sur formiko.msi ! Et utilisez le raccourci sur votre bureau pour les prochaines fois
-linuxLancxi:lancez le jeu en double-cliquant sur formiko.sh ou en ligne de commande
+
+//tanksForDownloading
+viSxatasLudo:Nous esperons que vous aprécirez le jeu !
+donacoPerFormiko:Formiko exists grâce a vos dons
+helpuNinTipeee:Aidez nous sur Tipeee
+elsxutoHelpiEtapoPerEtapo:Si vous rencontrez une difficulté durant l'installation, suivez l'installation étape par étape
+
+linuxInstali:Pour installer le jeu, lancer dans un terminal :
+linuxLancxi:Pour lancer le jeu après installation lancer dans un terminal :
+windowsInstali:Pour installer le jeu double-cliquez sur l'installateur dans votre dossier téléchargement/
+windowsLancxi:Pour lancer le jeu utilisez le raccourci sur votre bureau
+macInstali:Une dernière étape. N'ayant pas 100$/ans pour avoir mon application dans l'Appstore, après avoir installer formiko en temps qu'application, vous aurez besoin de lancer la ligne de commande suivante :

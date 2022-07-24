@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="€{lingvaSxlosilo}" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <title>€{titoloElsxuti} !</title>
+    <meta id="presentation" name="description" content="€{priskriboElsxuti} !">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <link rel="shortcut icon" type="image/png" href="../assets/logo.png">
+  </head>
+  <body onload="download()">
+    €{cmd:include _header.html}
+    <script type="text/javascript">
+      function download() {
+        document.location.href="https://github.com/HydrolienF/FormikoLauncher/releases/latest/download/FormikoLauncher.msi";
+      }
+    </script>
+    <div id="page">
+      <p>
+        €{WindowsInstali}.<br>
+        €{WindowsLancxi}.<br><br>
+        €{ElsxutoHelpiEtapoPerEtapo}.<br>
+      </p>
+      <br>
+      €{cmd:include _tanksForDownloading.html}
+    <div>
+  </body>
+</html>

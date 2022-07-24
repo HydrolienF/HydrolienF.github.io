@@ -30,4 +30,15 @@ cxiTie:here
 kontrauxvirusiloBlokasLudon:some antivirus blocks the execution of Java, it is necessary to authorize the execution of Formiko & Java to play the game
 kielLancxiFormikon:how to launch Formiko
 windowsLancxi:launch game for the 1st time by double clicking on formiko.msi ! And use the shortcut on your desktop for the next time
-linuxLancxi:launch game by double clicking on formiko.sh or with command line
+
+//tanksForDownloading
+viSxatasLudo:We hope that you will enjoy the game!
+donacoPerFormiko:Formiko leaves from your donnations
+helpuNinTipeee:Help us on Tipeee
+elsxutoHelpiEtapoPerEtapo:If you have any trouble check the step by step installation
+
+linuxInstali:To install the game launch in a terminal:
+linuxLancxi:To launch game after installation launch in a terminal:
+windowsInstali:To install the game, double click on installer in your Download/ folder
+windowsLancxi:To launch game use the shortcut on your desktop
+macInstali:1 final step. I don't have 100$/years to have an official Apple Store app, so after have add formiko as an app you will need to run a command line to be able to launch it:
