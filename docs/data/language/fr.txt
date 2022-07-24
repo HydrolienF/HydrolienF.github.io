@@ -33,7 +33,7 @@ windowsLancxi:lancez le jeu pour la 1ère fois en double-cliquant sur formiko.ms
 
 //tanksForDownloading
 viSxatasLudo:Nous esperons que vous aprécirez le jeu !
-donacoPerFormiko:Formiko exists grâce a vos dons
+donacoPerFormiko:Formiko existe grâce a vos dons
 helpuNinTipeee:Aidez nous sur Tipeee
 elsxutoHelpiEtapoPerEtapo:Si vous rencontrez une difficulté durant l'installation, suivez l'installation étape par étape
 
