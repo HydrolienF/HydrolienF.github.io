@@ -2,21 +2,13 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="robots" content="noindex">
     <title>télécharger Formiko maintenant !</title>
     <meta id="presentation" name="description" content="télécharger la dernière version de Formiko ! Disponible pour Windows, Mac & Linux !">
     <link rel="stylesheet" type="text/css" href="../styles.css">
     <link rel="shortcut icon" type="image/png" href="../assets/logo.png">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8S8YXFFEC"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-K8S8YXFFEC');
-    </script>
   </head>
-  <body>
-
+  <body onload="download()">
     <!--
 // TODO use it for javadoc
 -->
@@ -105,65 +97,24 @@
       ini();
     </script>
 
-
+    <script type="text/javascript">
+      function download() {
+        document.location.href="https://github.com/HydrolienF/FormikoLauncher/releases/latest/download/FormikoLauncher.msi";
+      }
+    </script>
     <div id="page">
-      <!-- <h2 id="download">Téléchargement</h2> -->
-      <!-- <p id="presentation">You're on our download page ! Here, you can download many versions, for Windows, MacOS, Linux and OS without Java.</p> -->
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- Blocs test -->
-      <ins id="ads" class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-8253423813243235"
-        data-ad-slot="4800088274"
-        data-ad-format="auto"
-        data-full-width-responsive="true">
-      </ins>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-        <!-- <div id="download-frames-container1">
-          <div class="download-frame">
-            <center><h3>Pour vous !</h3></center>
-            <a id="lastStableVersionChooseOs" href="https://github.com/HydrolienF/Formiko/releases/download/1.27.1/Formiko1.27.1Windows.zip">x.x.x</a>
-          </div>
-        </div>
-        <a id="showMore" href="" onclick="javascript:swapVisibility('download-frames-container'); return false;">Afficher plus</a>
-        <a id="hide" href="" onclick="javascript:swapVisibility('download-frames-container'); return false;">Afficher moins</a> -->
+      <p>
+        Pour installer le jeu double-cliquez sur l'installateur dans votre dossier téléchargement/.<br>
+        Pour lancer le jeu utilisez le raccourci sur votre bureau.<br><br>
+        Si vous rencontrez une difficulté durant l'installation, suivez l'installation étape par étape.<br>
+      </p>
+      <br>
+      <p>
+  <b>Nous esperons que vous aprécirez le jeu !</b><br>
+  Formiko exists grâce a vos dons.
+  <a href="https://tipeee.com/formiko">Aidez nous sur Tipeee.</a>
+</p>
 
-      <div id="download-frames-container">
-        <a href="tanksForDownloadingWindows.html">
-          <div class="download-frame">
-            <center><h3>Windows</h3></center>
-          </div>
-        </a>
-        <a href="tanksForDownloadingMac.html">
-          <div class="download-frame">
-            <center><h3>Mac</h3></center>
-          </div>
-        </a>
-        <a href="tanksForDownloadingLinux.html">
-          <div class="download-frame">
-            <center><h3>Linux (.deb)</h3></center>
-          </div>
-        </a>
-        <a href="https://github.com/HydrolienF/FormikoLauncher/releases">
-          <div class="download-frame">
-            <center><h3>Sans Java</h3></center>
-          </div>
-        </a>
-      </div>
-
-
-      <!-- <p> toutes les versions sont <a href="https://github.com/HydrolienF/Formiko/releases">ici</a>.</p> -->
-      <!-- <p>All actions to launch the game have to be executed in its directory.</p> -->
-      <!-- <p>Certains antivirus bloquent l'exécution de Java, il faut autoriser l'exécution de Formiko & Java pour jouer au jeu.</p> -->
-      <!-- <p>If there is not "(32 bit)" in the version name, it use 64 bit java. If your computer is very old you may need a <a href="#https://adoptopenjdk.net/releases.html?variant=openjdk15&jvmVariant=hotspot">32 bit java version</a> on your computer if you want to play.</p> -->
-      <!-- <h3>Comment lancer Formiko ?</h3>
-      <p><span id="bold">Windows :</span> Pour lancer le jeu utilisez le raccourci sur votre bureau.</p>
-      <p><span id="bold">Linux :</span> Pour lancer le jeu après installation lancer dans un terminal : : <code>./formiko.sh</code></p> -->
-    </div>
-
-    <!-- <script type="text/javascript" src='../src/version.js'></script> -->
-    <script data-ad-client="ca-pub-8253423813243235" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div>
   </body>
 </html>
