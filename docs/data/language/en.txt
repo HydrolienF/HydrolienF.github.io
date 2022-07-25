@@ -42,3 +42,17 @@ linuxLancxi:To launch game after installation launch in a terminal:
 windowsInstali:To install the game, double click on installer in your Download/ folder
 windowsLancxi:To launch game use the shortcut on your desktop
 macInstali:1 final step. I don't have 100$/years to have an official Apple Store app, so after have add formiko as an app you will need to run a command line to be able to launch it:
+
+
+//EtapoPerEtapoInstali
+epeiw.etapoPerEtapoInstali:installation step by step
+epeiw.priskriboEtapoPerEtapo:Follow this step by step tuto to install Formiko
+epeiw.etapoPerEtapoInstaliWindows: to install Formiko on Windows, step by step
+epeiw.1:Download Windows version by clicking on the Windows button
+epeiw.2:Open your download directory
+epeiw.3:Double click on the FormikoLauncher
+epeiw.4:Check accept the license
+epeiw.5:Click install &#38; allow to install with administrator permission
+epeiw.6:Wait for last version to be downloaded
+epeiw.7:Choose your language
+epeiw.8:That's it!
