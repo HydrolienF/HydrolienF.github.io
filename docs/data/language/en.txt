@@ -47,7 +47,6 @@ macInstali:1 final step. I don't have 100$/years to have an official Apple Store
 //EtapoPerEtapoInstali
 etapoPerEtapoInstali:installation step by step
 priskriboEtapoPerEtapo:Follow this step by step tuto to install Formiko
-etapoPerEtapoInstaliWindows: to install Formiko on Windows, step by step
 
 epei.-3:Wait for last version to be downloaded
 epei.-2:Choose your language

@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="robots" content="noindex">
-    <title>télécharger Formiko maintenant !</title>
-    <meta id="presentation" name="description" content="télécharger la dernière version de Formiko ! Disponible pour Windows, Mac & Linux !">
+    <title>Installation step by step - Linux</title>
+    <meta id="presentation" name="description" content="Follow this step by step tuto to install Formiko !">
     <link rel="stylesheet" type="text/css" href="../styles.css">
-    <link rel="shortcut icon" type="image/png" href="../assets/logo.png">
   </head>
-  <body onload="download()">
+  <body>
+    
     <!--
 // TODO use it for javadoc
 -->
@@ -16,15 +15,15 @@
     <header onload="ini()">
       <nav>
         <ul id="buttons-bar">
-          <a href="index.html"><li title="Accueil" class="mainButton" id="button-home-page">
+          <a href="index.html"><li title="Home" class="mainButton" id="button-home-page">
             <!-- <div class="modal-content"> -->
-              <img src="/data/images/homeWebSiteLink.png" alt="Accueil" width="55" height="55" class="centeredIcon">
+              <img src="/data/images/homeWebSiteLink.png" alt="Home" width="55" height="55" class="centeredIcon">
             <!-- </div> -->
-            <!-- Accueil -->
+            <!-- Home -->
           </li></a>
-          <a href="download.html"><li title="Téléchargement" class="mainButton" id="button-download-page">
-            <img src="/data/images/downloadLink.png" alt="Téléchargement" width="55" height="55" class="centeredIcon">
-            <!-- Téléchargement -->
+          <a href="download.html"><li title="Download" class="mainButton" id="button-download-page">
+            <img src="/data/images/downloadLink.png" alt="Download" width="55" height="55" class="centeredIcon">
+            <!-- Download -->
           </li></a>
           <a href="https://discord.gg/vqvfGzf"><li title="Discord" class="mainButton" id="button-discord-page">
             <img src="/data/images/discordLink.png" alt="Discord" width="55" height="55" class="centeredIcon">
@@ -72,7 +71,7 @@
               <select name="language" onchange="swapLanguage()" class="mainButton">
                 <option id="selectALanguage" value="">
                   🅰️↔🈶
-                  <!-- Langue -->
+                  <!-- Language -->
                 </option>
                 <option value="en">English</option>
                 <option value="fr">Français</option>
@@ -97,26 +96,54 @@
       ini();
     </script>
 
-    <script type="text/javascript">
-      function download() {
-        document.location.href="https://github.com/HydrolienF/FormikoLauncher/releases/latest/download/FormikoLauncher.deb";
-      }
-    </script>
-    <div id="page">
-      <p>
-        Pour installer le jeu, lancer dans un terminal :<br>
-        <code>sudo apt install ~/Download/FormikoLauncher.deb</code><br>
-        Pour lancer le jeu après installation lancer dans un terminal :<br>
-        <code>formiko</code><br><br>
-        Si vous rencontrez une difficulté durant l'installation, suivez l'installation étape par étape.<br>
-      </p>
-      <br>
-      <p>
-  <b>Nous esperons que vous aprécirez le jeu !</b><br>
-  Formiko existe grâce a vos dons.
-  <a href="https://tipeee.com/formiko">Aidez nous sur Tipeee.</a>
-</p>
 
-    <div>
+    <div id="page">
+      <h2 class="pCentered">Installation step by step - Linux</h2>
+      <br>
+      <p class="pCentered">
+        <b>Click on the Linux button.</b>
+      </p><br>
+      <img src="../data/images/stepByStepInstall/Linux/1.png" alt="1" class="imgResponsive">
+      <p class="pCentered"><br>
+        <b>Save FormikoLauncher.deb as a file.</b>
+      </p><br>
+      <img src="../data/images/stepByStepInstall/Linux/2.png" alt="2" class="imgResponsive">
+      <p class="pCentered"><br>
+        <b>Press the Windows/Linux/Mac key.</b>
+      </p><br>
+      <img src="../data/images/stepByStepInstall/Linux/3.png" alt="3" class="imgResponsive">
+      <p class="pCentered"><br>
+        <b>Write cmd &#38; launch a terminal.</b>
+      </p><br>
+      <img src="../data/images/stepByStepInstall/Linux/4.png" alt="4" class="imgResponsive">
+      <p class="pCentered"><br>
+        <b>Write "ls" then press enter. You now can read the name of your download folder in your computer language.</b>
+      </p><br>
+      <img src="../data/images/stepByStepInstall/Linux/5.png" alt="5" class="imgResponsive">
+      <p class="pCentered"><br>
+        <b>Use the "sudo ..." command from the web site by replacing "Download" by the name of your download folder.</b>
+      </p><br>
+      <img src="../data/images/stepByStepInstall/Linux/6.png" alt="6" class="imgResponsive">
+      <p class="pCentered"><br>
+        <b>Press enter.</b>
+      </p><br>
+      <img src="../data/images/stepByStepInstall/Linux/7.png" alt="7" class="imgResponsive">
+      <p class="pCentered"><br>
+        <b>Launch game by writing "formiko" then press enter.</b>
+      </p><br>
+      <img src="../data/images/stepByStepInstall/Linux/8.png" alt="8" class="imgResponsive">
+      <p class="pCentered"><br>
+        <b>Wait for last version to be downloaded</b>
+      </p><br>
+      <img src="../data/images/stepByStepInstall/Linux/9.png" alt="9" class="imgResponsive">
+      <p class="pCentered"><br>
+        <b>Choose your language</b>
+      </p><br>
+      <img src="../data/images/stepByStepInstall/Linux/10.png" alt="10" class="imgResponsive">
+      <p class="pCentered"><br>
+        <b>That's it!</b>
+      </p><br>
+      <img src="../data/images/stepByStepInstall/Linux/11.png" alt="11" class="imgResponsive">
+    </div>
   </body>
 </html>
