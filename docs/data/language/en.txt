@@ -45,14 +45,25 @@ macInstali:1 final step. I don't have 100$/years to have an official Apple Store
 
 
 //EtapoPerEtapoInstali
-epeiw.etapoPerEtapoInstali:installation step by step
-epeiw.priskriboEtapoPerEtapo:Follow this step by step tuto to install Formiko
-epeiw.etapoPerEtapoInstaliWindows: to install Formiko on Windows, step by step
-epeiw.1:Download Windows version by clicking on the Windows button
+etapoPerEtapoInstali:installation step by step
+priskriboEtapoPerEtapo:Follow this step by step tuto to install Formiko
+etapoPerEtapoInstaliWindows: to install Formiko on Windows, step by step
+
+epei.-3:Wait for last version to be downloaded
+epei.-2:Choose your language
+epei.-1:That's it!
+
+epeiw.1:Click on the Windows button
 epeiw.2:Open your download directory
 epeiw.3:Double click on the FormikoLauncher
 epeiw.4:Check accept the license
 epeiw.5:Click install &#38; allow to install with administrator permission
-epeiw.6:Wait for last version to be downloaded
-epeiw.7:Choose your language
-epeiw.8:That's it!
+
+epeil.1:Click on the Linux button
+epeil.2:Save FormikoLauncher.deb as a file
+epeil.3:Press the Windows/Linux/Mac key
+epeil.4:Write cmd &#38; launch a terminal
+epeil.5:Write "ls" then press enter. You now can read the name of your download folder in your computer language
+epeil.6:Use the "sudo ..." command from the web site by replacing "Download" by the name of your download folder
+epeil.7:Press enter
+epeil.8:Launch game by writing "formiko" then press enter.
