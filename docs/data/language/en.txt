@@ -43,6 +43,7 @@ windowsInstali:To install the game, double click on installer in your Download/ 
 windowsLancxi:To launch game use the shortcut on your desktop
 macInstali:1 final step. I don't have 100$/years to have an official Apple Store app, so after have add formiko as an app you will need to run a command line to be able to launch it:
 
+priskriboDankonPerElsxuti:Tanks for downloading
 
 //EtapoPerEtapoInstali
 etapoPerEtapoInstali:installation step by step
