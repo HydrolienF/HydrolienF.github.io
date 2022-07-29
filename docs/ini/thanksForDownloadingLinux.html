@@ -12,14 +12,18 @@
     €{cmd:include _header.html}
     <script type="text/javascript">
       function download() {
-        document.location.href="https://github.com/HydrolienF/FormikoLauncher/releases/latest/download/FormikoLauncher.msi";
+        document.location.href="https://github.com/HydrolienF/FormikoLauncher/releases/latest/download/FormikoLauncher.deb";
       }
     </script>
     <div id="page">
       <p>
-        €{WindowsInstali}.<br>
-        €{WindowsLancxi}.<br><br>
-        €{ElsxutoHelpiEtapoPerEtapo}.<br>
+        €{LinuxInstali}<br>
+        <code>sudo apt install ~/Download/FormikoLauncher.deb</code><br>
+        €{LinuxLancxi}<br>
+        <code>formiko</code><br><br>
+        <a href="stepByStepInstallLinux.html">
+          €{ElsxutoHelpiEtapoPerEtapo}.<br>
+        </a>
       </p>
       <br>
       €{cmd:include _tanksForDownloading.html}
