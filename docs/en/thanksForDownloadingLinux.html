@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <title>download Formiko now !</title>
+    <meta id="presentation" name="description" content="tanks for downloading !">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <link rel="shortcut icon" type="image/png" href="../assets/logo.png">
+  </head>
+  <body onload="download()">
+    <!--
+// TODO use it for javadoc
+-->
+
+    <header onload="ini()">
+      <nav>
+        <ul id="buttons-bar">
+          <a href="index.html"><li title="Home" class="mainButton" id="button-home-page">
+            <!-- <div class="modal-content"> -->
+              <img src="/data/images/homeWebSiteLink.png" alt="Home" width="55" height="55" class="centeredIcon">
+            <!-- </div> -->
+            <!-- Home -->
+          </li></a>
+          <a href="download.html"><li title="Download" class="mainButton" id="button-download-page">
+            <img src="/data/images/downloadLink.png" alt="Download" width="55" height="55" class="centeredIcon">
+            <!-- Download -->
+          </li></a>
+          <a href="https://discord.gg/vqvfGzf"><li title="Discord" class="mainButton" id="button-discord-page">
+            <img src="/data/images/discordLink.png" alt="Discord" width="55" height="55" class="centeredIcon">
+            <!-- Discord -->
+          </li></a>
+          <a href="https://tipeee.com/formiko"><li title="Support" class="mainButton" id="button-support-page">
+            <img src="/data/images/supportGameLink.png" alt="Support" width="55" height="55" class="centeredIcon">
+            <!-- Support -->
+          </li></a>
+          <a href="https://github.com/HydrolienF/Formiko/"><li title="Github" class="mainButton" id="button-github-page">
+            <img src="/data/images/githubLink.png" alt="Github" width="55" height="55" class="centeredIcon">
+            <!-- Github -->
+          </li></a>
+          <li>
+            <script type="text/javascript">
+              function goJavaDoc(){
+                javadoc = document.getElementById("javadocForm").elements[0].value;
+                htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/'));
+                document.location.href=window.location.origin+"/"+javadoc+"/javadoc/index.html";
+              }
+            </script>
+            <form action="." method="get" id="javadocForm">
+              <!-- <img src="/data/images/javadocLink.png" alt="Javadoc" width="55" height="55" class="centeredIcon"> -->
+              <select name="language" onchange="goJavaDoc()" class="mainButton">
+                <option id="selectAJavadoc" value="">
+                  📙
+                  <!-- Javadoc -->
+                </option>
+                <option value="Formiko">Formiko</option>
+                <option value="usual">Usual</option>
+                <option value="FormikoLauncher">Launcher</option>
+              </select>
+            </form>
+          </li>
+          <li>
+            <script type="text/javascript">
+              function swapLanguage(){
+                language = document.getElementById("languageForm").elements[0].value;
+                htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/'));
+                document.location.href=window.location.origin+"/"+language+htmlFile;
+                // document.location.href="../"+language+htmlFile;
+              }
+            </script>
+            <form action="." method="get" id="languageForm">
+              <select name="language" onchange="swapLanguage()" class="mainButton">
+                <option id="selectALanguage" value="">
+                  🅰️↔🈶
+                  <!-- Language -->
+                </option>
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="eo">Esperanto</option>
+              </select>
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <script type="text/javascript">
+      function ini() {
+        htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/')+1);
+        if(document.location.href.includes("javadoc")){
+          document.getElementById("javadocForm").setAttribute('style','background-color:#F8981D;');
+        }else if(htmlFile.includes("index")){
+          document.getElementById("button-home-page").setAttribute('style','background-color:#F8981D;');
+        }else if(htmlFile.includes("download")){
+          document.getElementById("button-download-page").setAttribute('style','background-color:#F8981D;');
+        }
+      }
+      ini();
+    </script>
+
+    <script type="text/javascript">
+      function download() {
+        document.location.href="https://github.com/HydrolienF/FormikoLauncher/releases/latest/download/FormikoLauncher.deb";
+      }
+    </script>
+    <div id="page">
+      <p>
+        To install the game launch in a terminal:<br>
+        <code>sudo apt install ~/Download/FormikoLauncher.deb</code><br>
+        To launch game after installation launch in a terminal:<br>
+        <code>formiko</code><br><br>
+        <a href="stepByStepInstallLinux.html">
+          If you have any trouble check the step by step installation.<br>
+        </a>
+      </p>
+      <br>
+      <p>
+  <b>We hope that you will enjoy the game!</b><br>
+  Formiko leaves from your donnations.
+  <a href="https://tipeee.com/formiko">Help us on Tipeee.</a>
+</p>
+
+    <div>
+  </body>
+</html>

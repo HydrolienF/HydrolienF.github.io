@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <title>elŝutu Formiko nun !</title>
+    <meta id="presentation" name="description" content="dankon per elŝuti !">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <link rel="shortcut icon" type="image/png" href="../assets/logo.png">
+  </head>
+  <body onload="download()">
+    <!--
+// TODO use it for javadoc
+-->
+
+    <header onload="ini()">
+      <nav>
+        <ul id="buttons-bar">
+          <a href="index.html"><li title="Hejmo" class="mainButton" id="button-home-page">
+            <!-- <div class="modal-content"> -->
+              <img src="/data/images/homeWebSiteLink.png" alt="Hejmo" width="55" height="55" class="centeredIcon">
+            <!-- </div> -->
+            <!-- Hejmo -->
+          </li></a>
+          <a href="download.html"><li title="Elŝuti" class="mainButton" id="button-download-page">
+            <img src="/data/images/downloadLink.png" alt="Elŝuti" width="55" height="55" class="centeredIcon">
+            <!-- Elŝuti -->
+          </li></a>
+          <a href="https://discord.gg/vqvfGzf"><li title="Discord" class="mainButton" id="button-discord-page">
+            <img src="/data/images/discordLink.png" alt="Discord" width="55" height="55" class="centeredIcon">
+            <!-- Discord -->
+          </li></a>
+          <a href="https://tipeee.com/formiko"><li title="Support" class="mainButton" id="button-support-page">
+            <img src="/data/images/supportGameLink.png" alt="Support" width="55" height="55" class="centeredIcon">
+            <!-- Support -->
+          </li></a>
+          <a href="https://github.com/HydrolienF/Formiko/"><li title="Github" class="mainButton" id="button-github-page">
+            <img src="/data/images/githubLink.png" alt="Github" width="55" height="55" class="centeredIcon">
+            <!-- Github -->
+          </li></a>
+          <li>
+            <script type="text/javascript">
+              function goJavaDoc(){
+                javadoc = document.getElementById("javadocForm").elements[0].value;
+                htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/'));
+                document.location.href=window.location.origin+"/"+javadoc+"/javadoc/index.html";
+              }
+            </script>
+            <form action="." method="get" id="javadocForm">
+              <!-- <img src="/data/images/javadocLink.png" alt="Javadoc" width="55" height="55" class="centeredIcon"> -->
+              <select name="language" onchange="goJavaDoc()" class="mainButton">
+                <option id="selectAJavadoc" value="">
+                  📙
+                  <!-- Javadoc -->
+                </option>
+                <option value="Formiko">Formiko</option>
+                <option value="usual">Usual</option>
+                <option value="FormikoLauncher">Launcher</option>
+              </select>
+            </form>
+          </li>
+          <li>
+            <script type="text/javascript">
+              function swapLanguage(){
+                language = document.getElementById("languageForm").elements[0].value;
+                htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/'));
+                document.location.href=window.location.origin+"/"+language+htmlFile;
+                // document.location.href="../"+language+htmlFile;
+              }
+            </script>
+            <form action="." method="get" id="languageForm">
+              <select name="language" onchange="swapLanguage()" class="mainButton">
+                <option id="selectALanguage" value="">
+                  🅰️↔🈶
+                  <!-- Lingvo -->
+                </option>
+                <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="eo">Esperanto</option>
+              </select>
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <script type="text/javascript">
+      function ini() {
+        htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/')+1);
+        if(document.location.href.includes("javadoc")){
+          document.getElementById("javadocForm").setAttribute('style','background-color:#F8981D;');
+        }else if(htmlFile.includes("index")){
+          document.getElementById("button-home-page").setAttribute('style','background-color:#F8981D;');
+        }else if(htmlFile.includes("download")){
+          document.getElementById("button-download-page").setAttribute('style','background-color:#F8981D;');
+        }
+      }
+      ini();
+    </script>
+
+    <script type="text/javascript">
+      function download() {
+        document.location.href="https://github.com/HydrolienF/FormikoLauncher/releases/latest/download/FormikoLauncher.dmg";
+      }
+    </script>
+    <div id="page">
+      <p>
+        1 fina etapo. Mi ne havas 100$/jarojn por havi oficialan Apple Store-apon, do post aldoni formiko kiel apon, vi devos ruli komandlinion por povi lanĉi ĝin:<br>
+        <code>xattr -cr /Applications/Formiko.app</code><br><br>
+        <a href="stepByStepInstallMac.html">
+          Se vi havas problemojn, vidi la paŝo post paŝo instalado.<br>
+        </a>
+      </p>
+      <br>
+      <p>
+  <b>Ni esperas, ke vi ŝatos la ludon!</b><br>
+  Formiko vivi per via donacojn.
+  <a href="https://tipeee.com/formiko">Helpu nin en Tipeee.</a>
+</p>
+
+    <div>
+  </body>
+</html>
