@@ -68,11 +68,10 @@ epeil.6:Use the "sudo ..." command from the web site by replacing "Download" by 
 epeil.7:Press enter
 epeil.8:Launch game by writing "formiko" then press enter.
 
-
-epeilm.1:Click on the Max button
+epeilm.1:Click on the Mac button
 epeilm.2:Wait for the download to be over, then click on downloaded file
 epeilm.3:Accept the license by clicking "Agree"
-epeilm.4:Wait for the launcher to be ready
+epeilm.4:Wait for the launcher to be considered as an app
 epeilm.5:Move Formiko into Applications folder
 epeilm.6:Double click Applications folder
 epeilm.7:Double click Utilities folder in Applications

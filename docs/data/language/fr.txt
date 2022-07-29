@@ -42,3 +42,40 @@ linuxLancxi:Pour lancer le jeu après installation lancer dans un terminal :
 windowsInstali:Pour installer le jeu double-cliquez sur l'installateur dans votre dossier téléchargement/
 windowsLancxi:Pour lancer le jeu utilisez le raccourci sur votre bureau
 macInstali:Une dernière étape. N'ayant pas 100$/ans pour avoir mon application dans l'Appstore, après avoir installer formiko en temps qu'application, vous aurez besoin de lancer la ligne de commande suivante :
+
+priskriboDankonPerElsxuti:Merci d'avoir télécharger
+
+//EtapoPerEtapoInstali
+etapoPerEtapoInstali:installation étape par étape
+priskriboEtapoPerEtapo:Suivez ce tuto étape par étape pour installer Formiko
+
+epei.-3:Patientez le temps que la dernière version ce téléchage
+epei.-2:Choisisez votre langue
+epei.-1:C'est bon !
+
+epeiw.1:Cliquez sur le bouton Windows
+epeiw.2:Ouvrez votre dossier téléchargement
+epeiw.3:Double clicquez sur FormikoLauncher
+epeiw.4:Valider que vous acceptez la licence
+epeiw.5:Cliquez sur install &#38; autoriser l'installation avec les droit administrateurs
+
+epeil.1:Cliquez sur le bouton Linux
+epeil.2:Sauvegarder FormikoLauncher.deb en temps que fichier
+epeil.3:Appuyez sur la touche Windows/Linux/Mac
+epeil.4:écrivez cmd &#38; lancer un terminal
+epeil.5:écrivez "ls" puis appuyez sur Entrée. Vous pouvez maintenant lire le nom de votre dossier Téléchargement dans la langue de votre ordinateur
+epeil.6:Utilisez la commande "sudo ..." du site web en remplacant "Download" par le nom de votre dossier Téléchargement
+epeil.7:Appuyez sur la touche Entrée
+epeil.8:Lancer le jeu en tappant "formiko" puis en appuyant sur la touche Entrée.
+
+epeilm.1:Cliquez sur le bouton Mac
+epeilm.2:Attendez la fin du téléchargement, puis cliquez sur le fichier téléchagé.
+epeilm.3:Acceptez la licence en cliquant sur "Agree"
+epeilm.4:Attendez que le launcher soit pris en compte en temps qu'application
+epeilm.5:Déplacer Formiko dans de dossier Applications
+epeilm.6:Double cliquez sur Applications
+epeilm.7:Double cliquez sur Utilitaires dans Applications
+epeilm.8:Double cliquez sur Terminal
+epeilm.9:Retournez sur la page du site web & copiez la ligne de commande
+epeilm.10:Coller la ligne de commande puis appuyez sur Entrée
+epeilm.11:Retournez dans Applications & double cliquez sur Formiko
