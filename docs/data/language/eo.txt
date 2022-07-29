@@ -54,7 +54,7 @@ epei.-2:Elektu vian lingvon
 epei.-1:Jen ĝi !
 
 epeiw.1:Alklaku la butonon de Windows
-epeiw.2:Malfermu vian elŝutan dosierujon
+epeiw.2:Malfermu vian elŝutejan dosierujon
 epeiw.3:Duoble alklaku la FormikoLauncher
 epeiw.4:Alklaku sur markobutono akcepti la permesilon
 epeiw.5:Alklaku install &#38; permesi instali kun administranto-permeso
@@ -63,8 +63,8 @@ epeil.1:Alklaku la butonon Linux
 epeil.2:Savi FormikoLauncher.deb kiel dosiero
 epeil.3:Premu la butonon Windows/Linux/Mac
 epeil.4:Skribu cmd &#38; lanĉi terminalon
-epeil.5:Skribu "ls" tiam premu Enigi. Vi nun povas legi la nomon de via elŝuta dosierujo en via komputila lingvo
-epeil.6:Uzu la komandon "sudo ..." de la retejo anstataŭigante "Download" per la nomo de via elŝuta dosierujo.
+epeil.5:Skribu "ls" tiam premu Enigi. Vi nun povas legi la nomon de via elŝuteja dosierujo en via komputila lingvo
+epeil.6:Uzu la komandon "sudo ..." de la retejo anstataŭigante "Download" per la nomo de via elŝuteja dosierujo.
 epeil.7:premu Enigi
 epeil.8:Lanĉu ludon skribante "formiko" tiam premu Enigi.
 
