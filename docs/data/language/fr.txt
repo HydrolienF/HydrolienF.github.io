@@ -31,7 +31,7 @@ kontrauxvirusiloBlokasLudon:certains antivirus bloquent l'exécution de Java, il
 kielLancxiFormikon:Comment lancer Formiko
 windowsLancxi:lancez le jeu pour la 1ère fois en double-cliquant sur formiko.msi ! Et utilisez le raccourci sur votre bureau pour les prochaines fois
 
-//tanksForDownloading
+//thanksForDownloading
 viSxatasLudo:Nous esperons que vous aprécirez le jeu !
 donacoPerFormiko:Formiko existe grâce a vos dons
 helpuNinTipeee:Aidez nous sur Tipeee
