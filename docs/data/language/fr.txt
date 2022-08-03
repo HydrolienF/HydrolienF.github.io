@@ -68,14 +68,14 @@ epeil.6:Utilisez la commande "sudo ..." du site web en remplacant "Download" par
 epeil.7:Appuyez sur la touche Entrée
 epeil.8:Lancez le jeu en tappant "formiko" puis en appuyant sur la touche Entrée.
 
-epeilm.1:Cliquez sur le bouton Mac
-epeilm.2:Attendez la fin du Téléchargements, puis cliquez sur le fichier téléchagé.
-epeilm.3:Acceptez la licence en cliquant sur "Agree"
-epeilm.4:Attendez que le launcher soit pris en compte en temps qu'application
-epeilm.5:Déplacer Formiko dans de dossier Applications
-epeilm.6:Double cliquez sur Applications
-epeilm.7:Double cliquez sur Utilitaires dans Applications
-epeilm.8:Double cliquez sur Terminal
-epeilm.9:Retournez sur la page du site web & copiez la ligne de commande
-epeilm.10:Coller la ligne de commande puis appuyez sur Entrée
-epeilm.11:Retournez dans Applications & double cliquez sur Formiko
+epeim.1:Cliquez sur le bouton Mac
+epeim.2:Attendez la fin du Téléchargements, puis cliquez sur le fichier téléchagé.
+epeim.3:Acceptez la licence en cliquant sur "Agree"
+epeim.4:Attendez que le launcher soit pris en compte en temps qu'application
+epeim.5:Déplacer Formiko dans de dossier Applications
+epeim.6:Double cliquez sur Applications
+epeim.7:Double cliquez sur Utilitaires dans Applications
+epeim.8:Double cliquez sur Terminal
+epeim.9:Retournez sur la page du site web & copiez la ligne de commande
+epeim.10:Coller la ligne de commande puis appuyez sur Entrée
+epeim.11:Retournez dans Applications & double cliquez sur Formiko

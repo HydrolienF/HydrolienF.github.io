@@ -68,14 +68,14 @@ epeil.6:Uzu la komandon "sudo ..." de la retejo anstataŭigante "Download" per l
 epeil.7:premu Enigi
 epeil.8:Lanĉu ludon skribante "formiko" tiam premu Enigi.
 
-epeilm.1:Alklaku la butonon Mac
-epeilm.2:Atendu, ke la elŝuto finiĝos, tiam alklaku en elŝutita dosiero
-epeilm.3:Akceptu la permesilon alklakante "Agree"
-epeilm.4:Atendu, ke la lanĉilo estu konsiderata kiel aplikaĵo
-epeilm.5:Movi Formiko en dosierujo Aplikoj
-epeilm.6:duobla alklaku dosierujo Aplikoj
-epeilm.7:duobla alklaku dosierujo Utilaĵoj en Aplikoj
-epeilm.8:duobla alklaku Terminal
-epeilm.9:Reiru al retpaĝo kaj kopiu komandlinion
-epeilm.10:Algluu komandlinion & premu Enigi
-epeilm.11:Reiru en Aplikoj dosierujo & duobla alklaku Formiko
+epeim.1:Alklaku la butonon Mac
+epeim.2:Atendu, ke la elŝuto finiĝos, tiam alklaku en elŝutita dosiero
+epeim.3:Akceptu la permesilon alklakante "Agree"
+epeim.4:Atendu, ke la lanĉilo estu konsiderata kiel aplikaĵo
+epeim.5:Movi Formiko en dosierujo Aplikoj
+epeim.6:duobla alklaku dosierujo Aplikoj
+epeim.7:duobla alklaku dosierujo Utilaĵoj en Aplikoj
+epeim.8:duobla alklaku Terminal
+epeim.9:Reiru al retpaĝo kaj kopiu komandlinion
+epeim.10:Algluu komandlinion & premu Enigi
+epeim.11:Reiru en Aplikoj dosierujo & duobla alklaku Formiko
