@@ -11,8 +11,13 @@
   <body onload="download()">
     €{cmd:include _header.html}
     <script type="text/javascript">
-      function download() {
-        document.location.href="https://github.com/HydrolienF/FormikoLauncher/releases/latest/download/FormikoLauncher.dmg";
+      async function download() {
+        // document.location.href="https://github.com/HydrolienF/FormikoLauncher/releases/latest/download/FormikoLauncher.dmg";
+        // previous line can replace the nexts one when mac launcher will work.
+        const req = await fetch('https://gist.githubusercontent.com/HydrolienF/c7dbc5d2d61b749ff6878e93afdaf53e/raw/version.json');
+        const jsonObj = await req.json();
+        const lastStableVersion = jsonObj['lastStableVersion'];
+        document.location.href="https://github.com/HydrolienF/Formiko/releases/download/"+lastStableVersion+"/Formiko"+lastStableVersion+".dmg";
       }
     </script>
     <div id="page">
