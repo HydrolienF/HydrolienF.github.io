@@ -25,7 +25,7 @@
           <!-- <a href="formiko.html"><li title="Formiko" class="mainButton" id="button-home-page">
             <img src="/data/images/kokcinelo.png" alt="Home" width="55" height="55" class="centeredIcon">
           </li></a> -->
-          <a href="kokcinelo.html"><li title="Kokcinelo" class="mainButton" id="button-home-page">
+          <a href="kokcinelo.html"><li title="Kokcinelo" class="mainButton" id="button-kokcinelo-page">
             <img src="/data/images/kokcinelo.png" alt="Kokcinelo" width="55" height="55" class="centeredIcon">
           </li></a>
           <!-- <a href="download.html"><li title="Download" class="mainButton" id="button-download-page">
@@ -98,6 +98,8 @@
           document.getElementById("button-home-page").setAttribute('style','background-color:#F8981D;');
         }else if(htmlFile.includes("download")){
           document.getElementById("button-download-page").setAttribute('style','background-color:#F8981D;');
+        }else if(htmlFile.includes("kokcinelo")){
+          document.getElementById("button-kokcinelo-page").setAttribute('style','background-color:#F8981D;');
         }
       }
       ini();
