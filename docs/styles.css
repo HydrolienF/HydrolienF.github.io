@@ -245,3 +245,7 @@ select {
   margin-right: auto;
   text-align: center;
 }
+
+.buttonListOp {
+  font-size: 1.6vw;
+}
