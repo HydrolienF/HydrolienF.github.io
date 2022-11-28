@@ -32,7 +32,7 @@ kielLancxiFormikon:how to launch Formiko
 windowsLancxi:launch game for the 1st time by double clicking on formiko.msi ! And use the shortcut on your desktop for the next time
 
 //Kokcinelo
-csenoPrezentadoKokcinelo:Breeder ant with sharp mandibles or aphid-eating ladybug, choose your side
+csenoPrezentadoKokcinelo:Kokcinelo - Breeder ant with sharp mandibles or aphid-eating ladybug, choose your side
 titoloKokcinelo:Breeder ant with sharp mandibles or aphid-eating ladybug, choose your side!
 
 //thanksForDownloading

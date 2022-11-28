@@ -32,7 +32,7 @@ kielLancxiFormikon:kiel lanĉi Formikon
 windowsLancxi:lanĉu ludon por la 1a fojo per duobla alklako sur formiko.msi ! Kaj uzu la ŝparvojon sur via labortablo por la sekva fojo
 
 //Kokcinelo
-csenoPrezentadoKokcinelo:Reproduktanta formiko kun akraj mandibloj aŭ afidomanĝanta kokcinelo, elektu vian flankon
+csenoPrezentadoKokcinelo:Kokcinelo - Reproduktanta formiko kun akraj mandibloj aŭ afidomanĝanta kokcinelo, elektu vian flankon
 titoloKokcinelo:Reproduktanta formiko kun akraj mandibloj aŭ afidomanĝanta kokcinelo, elektu vian flankon !
 
 //thanksForDownloading
