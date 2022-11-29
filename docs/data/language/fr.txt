@@ -33,7 +33,7 @@ windowsLancxi:lancez le jeu pour la 1ère fois en double-cliquant sur formiko.ms
 
 //Kokcinelo
 csenoPrezentadoKokcinelo:Kokcinelo - Fourmi éleveuse aux mandibules acérée ou coccinelle dévoreuse de pucerons, choisisez votre camp
-titoloKokcinelo:Fourmi éleveuse aux mandibules acérée ou coccinelle dévoreuse de pucerons, choisisez votre camp !
+titoloKokcinelo:Fourmi éleveuse aux mandibules acérées ou coccinelle dévoreuse de pucerons, choisisez votre camp !
 
 //thanksForDownloading
 viSxatasLudo:Nous esperons que vous aprécirez le jeu !
