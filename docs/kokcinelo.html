@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Home</title>
-    <meta id="presentation" name="description" content="Breeder ant with sharp mandibles or aphid-eating ladybug, choose your side!">
-  </head>
-  <body>
-    <script type="text/javascript">
-      const queryString = window.location.search
-      const urlParams = new URLSearchParams(queryString)
 
-      var language = navigator.language || navigator.userLanguage;
-      if(urlParams.get('language')) {language = urlParams.get('language')}
-      if(language!='eo' && language!='fr' && language!="en"){
-        language="en";
-      }
-      document.location.href=language+"/kokcinelo.html";
-    </script>
-    <p>
-      You should be redirected in a second.<br>
-      If redirection fail you can still go to <a href="https://formiko.fr/en/kokcinelo.html">english page</a>.
-    </p>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Kokcinelo - Play now!</title>
+  <meta id="presentation" name="description"
+    content="Breeder ant with sharp mandibles or aphid-eating ladybug, choose your side!">
+</head>
+
+<body>
+  <script type="text/javascript">
+    const queryString = window.location.search
+    const urlParams = new URLSearchParams(queryString)
+
+    var language = navigator.language || navigator.userLanguage;
+    if (urlParams.get('language')) { language = urlParams.get('language') }
+    if (language != 'eo' && language != 'fr' && language != "en") {
+      language = "en";
+    }
+    document.location.href = language + "/kokcinelo.html";
+  </script>
+  <p>
+    You should be redirected in a second.<br>
+    If redirection fail you can still go to <a href="https://formiko.fr/en/kokcinelo.html">english page</a>.
+  </p>
+</body>
+
 </html>
