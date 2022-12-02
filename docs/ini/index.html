@@ -1,54 +1,69 @@
 <!DOCTYPE html>
 <html lang="€{lingvaSxlosilo}" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>€{TitoloIndekso}</title>
-    <meta id="presentation" name="description" content="€{priskriboIndekso} !">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <link rel="stylesheet" type="text/css" href="../styles.css">
-    <link rel="shortcut icon" type="image/png" href="../assets/logo.png">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8S8YXFFEC"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-K8S8YXFFEC');
-    </script>
-    <script src="../src/count.js" defer></script>
-  </head>
-  <body>
 
-    €{cmd:include _header.html}
+<head>
+  <meta charset="utf-8">
+  <title>€{TitoloIndekso}</title>
+  <meta id="presentation" name="description" content="€{priskriboIndekso} !">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <link rel="stylesheet" type="text/css" href="../styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/logo.png">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8S8YXFFEC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-K8S8YXFFEC');
+  </script>
+  <script src="../src/count.js" defer></script>
+</head>
 
-    <div id="page">
-      <div id="download-frames-container" style='margin: 0px;'>
-        <div>
-          <h2 id="welcome">Formiko</h2>
-          <p id="presentation">€{CsenoPrezentado} !</p>
-          <p id="counter_text">formiko.fr €{vizitantoNombrilo.1} <span id="counter"> -1</span> €{vizitantoNombrilo.2} !</p>
-        </div>
+<body>
+
+  €{cmd:include _header.html}
+
+  <div id="page">
+    <div id="download-frames-container" style='margin: 0px;'>
+      <div>
+        <h2 id="welcome">Formiko</h2>
+        <p id="presentation">€{CsenoPrezentado} !</p>
+        <p id="counter_text">formiko.fr €{vizitantoNombrilo.1} <span id="counter"> -1</span> €{vizitantoNombrilo.2} !
+        </p>
+      </div>
+      <div>
         <a id="lastStableVersionChooseOs" href="download.html">
           <div class="download-frame">
-            <center><h3>€{elsxuti}</h3></center>
+            <center>
+              <h3>€{elsxuti}</h3>
+            </center>
           </div>
         </a>
       </div>
-      <div id="discover">
-        <div id="trailerDiv">
-          <h4 id="trailer">€{csenoAntauxfilmo}</h4>
-          <div class="containerRatio">
-            <iframe class="responsive-iframe" id="game-trailer" src="https://www.youtube.com/embed/j7en2o6E-1Q?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+    </div>
+    <div id="discover">
+      <div id="trailerDiv">
+        <h4 id="trailer">€{csenoAntauxfilmo}</h4>
+        <div class="containerRatio">
+          <iframe class="responsive-iframe" id="game-trailer"
+            src="https://www.youtube.com/embed/j7en2o6E-1Q?&autoplay=1" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
-        <div id"discordDiv">
-          <h4 id="discord">€{csenoDiscord}</h4>
-          <div class="containerRatio2">
-            <iframe class="responsive-iframe" id="discord-widget" src="https://discordapp.com/widget?id=728592434577014825&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-          </div>
+      </div>
+      <div id"discordDiv">
+        <h4 id="discord">€{csenoDiscord}</h4>
+        <div class="containerRatio2">
+          <iframe class="responsive-iframe" id="discord-widget"
+            src="https://discordapp.com/widget?id=728592434577014825&theme=dark" allowtransparency="true"
+            frameborder="0"
+            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </div>
       </div>
     </div>
-    <script data-ad-client="ca-pub-8253423813243235" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  </body>
+  </div>
+  <script data-ad-client="ca-pub-8253423813243235" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</body>
+
 </html>
