@@ -18,7 +18,7 @@ vizitantoNombrilo.2:times
 
 //download.html
 titoloElsxuti:Download Formiko now
-priskriboElsxuti:Download last version of Formiko ! Aviable for Windows, Mac & Linux
+priskriboElsxuti:Download last version of Formiko ! available for Windows, Mac & Linux
 rekomendita:Recommended
 lasta:Last
 perVi:for you
