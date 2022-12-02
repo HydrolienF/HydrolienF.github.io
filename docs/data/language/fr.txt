@@ -32,8 +32,8 @@ kielLancxiFormikon:Comment lancer Formiko
 windowsLancxi:lancez le jeu pour la 1ère fois en double-cliquant sur formiko.msi ! Et utilisez le raccourci sur votre bureau pour les prochaines fois
 
 //Kokcinelo
-csenoPrezentadoKokcinelo:Kokcinelo - Fourmi éleveuse aux mandibules acérée ou coccinelle dévoreuse de pucerons, choisisez votre camp
-titoloKokcinelo:Fourmi éleveuse aux mandibules acérées ou coccinelle dévoreuse de pucerons, choisisez votre camp !
+titoloKokcinelo:Kokcinelo - Fourmi éleveuse aux mandibules acérée ou coccinelle dévoreuse de pucerons, choisisez votre camp
+csenoPrezentadoKokcinelo:Fourmi éleveuse aux mandibules acérées ou coccinelle dévoreuse de pucerons, choisisez votre camp !
 
 //thanksForDownloading
 viSxatasLudo:Nous esperons que vous aprécirez le jeu !
