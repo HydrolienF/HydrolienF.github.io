@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Home - Formiko - A game about ant</title>
-    <meta id="presentation" name="description" content="formiko is a small game where each player embodies a queen ant and its anthill, from its foundation to its supremacy over the garden !">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <link rel="stylesheet" type="text/css" href="../styles.css">
-    <link rel="shortcut icon" type="image/png" href="../assets/logo.png">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8S8YXFFEC"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-K8S8YXFFEC');
-    </script>
-    <script src="../src/count.js" defer></script>
-  </head>
-  <body>
 
-    <!--
+<head>
+  <meta charset="utf-8">
+  <title>Home - Formiko - A game about ant</title>
+  <meta id="presentation" name="description" content="formiko is a small game where each player embodies a queen ant and its anthill, from its foundation to its supremacy over the garden !">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <link rel="stylesheet" type="text/css" href="../styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/logo.png">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8S8YXFFEC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-K8S8YXFFEC');
+  </script>
+  <script src="../src/count.js" defer></script>
+</head>
+
+<body>
+
+  <!--
 // TODO use it for javadoc
 -->
 
@@ -116,34 +118,45 @@
     </script>
 
 
-    <div id="page">
-      <div id="download-frames-container" style='margin: 0px;'>
-        <div>
-          <h2 id="welcome">Formiko</h2>
-          <p id="presentation">Formiko is a small game where each player embodies a queen ant and its anthill, from its foundation to its supremacy over the garden !</p>
-          <p id="counter_text">formiko.fr have been visited <span id="counter"> -1</span> times !</p>
-        </div>
+  <div id="page">
+    <div id="download-frames-container" style='margin: 0px;'>
+      <div id="trailerDiv">
+        <h2 id="welcome">Formiko</h2>
+        <p id="presentation">Formiko is a small game where each player embodies a queen ant and its anthill, from its foundation to its supremacy over the garden !</p>
+        <p id="counter_text">formiko.fr have been visited <span id="counter"> -1</span> times !
+        </p>
+      </div>
+      <div>
         <a id="lastStableVersionChooseOs" href="download.html">
           <div class="download-frame">
-            <center><h3>download</h3></center>
+            <h3 style="text-align: center">download</h3>
           </div>
         </a>
       </div>
-      <div id="discover">
-        <div id="trailerDiv">
-          <h4 id="trailer">watch the trailer</h4>
-          <div class="containerRatio">
-            <iframe class="responsive-iframe" id="game-trailer" src="https://www.youtube.com/embed/j7en2o6E-1Q?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+    </div>
+    <div id="discover">
+      <div id="trailerDiv">
+        <h4 id="trailer">watch the trailer</h4>
+        <div class="containerRatio">
+          <iframe class="responsive-iframe" id="game-trailer"
+            src="https://www.youtube.com/embed/j7en2o6E-1Q?&autoplay=1" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
-        <div id"discordDiv">
-          <h4 id="discord">join the Discord</h4>
-          <div class="containerRatio2">
-            <iframe class="responsive-iframe" id="discord-widget" src="https://discordapp.com/widget?id=728592434577014825&theme=dark" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-          </div>
+      </div>
+      <div id="discordDiv">
+        <h4 id="discord">join the Discord</h4>
+        <div class="containerRatio2">
+          <iframe class="responsive-iframe" id="discord-widget"
+            src="https://discordapp.com/widget?id=728592434577014825&theme=dark" allowtransparency="true"
+            frameborder="0"
+            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
         </div>
       </div>
     </div>
-    <script data-ad-client="ca-pub-8253423813243235" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  </body>
+  </div>
+  <script data-ad-client="ca-pub-8253423813243235" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</body>
+
 </html>
