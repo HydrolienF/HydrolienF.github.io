@@ -6,7 +6,8 @@ function getEndFileName(){
   }else if(os.includes("linux")){
     return "deb"
   }else if(os.includes("mac")){
-    return "dmg";
+    // return "dmg";
+    return "zip"; //TODO fix mac version & change that.
   }else{
     return "zip";
   }
