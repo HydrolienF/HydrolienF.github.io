@@ -28,12 +28,11 @@
       <div>
         <h2 id="welcome">Kokcinelo</h2>
         <p id="presentation">€{CsenoPrezentadoKokcinelo}
-          <!-- e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e -->
         </p>
         <!-- <p id="counter_text">formiko.fr €{vizitantoNombrilo.1} <span id="counter"> ...</span> €{vizitantoNombrilo.2} !</p> -->
       </div>
       <div>
-        <a id="lastStableVersionChooseOs"
+        <a id="lastStableVersionChooseOs" onclick="displayAfterDownloadMessage()"
           href="https://github.com/HydrolienF/Kokcinelo/releases/latest/download/Kokcinelo.exe">
           <div class="download-frame">
             <h3 style="text-align: center">€{elsxuti}</h3>
@@ -42,17 +41,38 @@
       </div>
     </div>
 
-    <!-- TODO show a part of the page only after download launch :
-    - Need help for install & the link by os
-    - contributing with Tipeee
-    - 1 pub ?
-    -->
+    <script>
+      function displayAfterDownloadMessage() {
+        document.getElementById("showAfterDownload").style.display = "block";
+      }
+    </script>
+    <div id="showAfterDownload">
+      <br><br>
+      €{cmd:include _thanksForDownloading.html}
+      <h4>€{BezonasHelpon}</h4>
+      <h5>Windows</h5>
+      <ol>
+        <li>€{WindowsInstaliKokcinelo.1}</li>
+        <li>€{WindowsInstaliKokcinelo.2}</li>
+        <li>€{Epeiw.2}</li>
+        <li>€{Epeiw.3} Kokcinelo</li>
+        <li>€{Epeiw.4}</li>
+        <li>€{Epeiw.5}</li>
+      </ol>
+      <h5>Linux</h5>
+      <ol>
+        <li>€{LinuxInstali}<br><code>sudo apt install ~/Download/Kokcinelo.deb</code><br></li>
+        <li>€{LinuxLancxi}<br><code>kokcinelo</code><br><br></li>
+      </ol>
+      <p>€{HelpoPerDiscord}</p>
+      <!-- <h5>Mac</h5> -->
+    </div>
 
     <div id="discover">
       <div id="trailerDiv">
         <h4 id="trailer">€{csenoAntauxfilmo}</h4>
         <div class="containerRatio">
-          //TODO replace by Kokcinelo antaŭfilmon
+          <!-- //TODO replace by Kokcinelo antaŭfilmon -->
           <iframe class="responsive-iframe" id="game-trailer"
             src="https://www.youtube.com/embed/j7en2o6E-1Q?&autoplay=1" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

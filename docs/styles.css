@@ -254,3 +254,7 @@ select {
 .buttonListOp {
   font-size: 1.6vw;
 }
+
+#showAfterDownload {
+  display:none;
+}

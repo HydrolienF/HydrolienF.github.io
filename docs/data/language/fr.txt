@@ -5,6 +5,7 @@ hejmo:accueil
 elsxuti:téléchargement
 lingvo:langue
 neFunkcianta:Ne fonctionne pas pour l'instant
+bezonasHelpon:besoin d'aide ?
 
 //index.thml
 titoloIndekso:Accueil - Formiko - Un jeu de fourmi
@@ -35,6 +36,7 @@ windowsLancxi:lancez le jeu pour la 1ère fois en double-cliquant sur formiko.ms
 titoloKokcinelo:Kokcinelo - Jouez maintenant !
 priskriboKokcinelo:Fourmi éleveuse aux mandibules acérée ou coccinelle dévoreuse de pucerons, choisisez votre camp !
 csenoPrezentadoKokcinelo:Fourmi éleveuse aux mandibules acérées ou coccinelle dévoreuse de pucerons, choisisez votre camp !
+helpoPerDiscord:Si vous avez encore des soucis d'installation, demandez de l'aide sur notre Discord.
 
 //thanksForDownloading
 viSxatasLudo:Nous esperons que vous aprécirez le jeu !
@@ -42,7 +44,7 @@ donacoPerFormiko:Formiko & Kokcinelo existent grâce a vos dons
 helpuNinTipeee:Aidez nous sur Tipeee
 elsxutoHelpiEtapoPerEtapo:Si vous rencontrez une difficulté durant l'installation, suivez l'installation étape par étape
 
-linuxInstali:Pour installer le jeu, lancer dans un terminal :
+linuxInstali:Pour installer le jeu, lancer dans un terminal (En remplaçant Download par votre fichier de téléchargement):
 linuxLancxi:Pour lancer le jeu après installation lancer dans un terminal :
 windowsInstali:Pour installer le jeu double-cliquez sur l'installateur dans votre dossier Téléchargements
 windowsLancxi:Pour lancer le jeu utilisez le raccourci sur votre bureau
@@ -60,7 +62,7 @@ epei.-1:C'est bon !
 
 epeiw.1:Cliquez sur le bouton Windows
 epeiw.2:Ouvrez votre dossier Téléchargements
-epeiw.3:Double clicquez sur FormikoLauncher
+epeiw.3:Double cliquez sur
 epeiw.4:Valider que vous acceptez la licence
 epeiw.5:Cliquez sur install &#38; autoriser l'installation avec les droit administrateurs
 
@@ -84,3 +86,6 @@ epeim.8:Double cliquez sur Terminal
 epeim.9:Retournez sur la page du site web & copiez la ligne de commande
 epeim.10:Coller la ligne de commande puis appuyez sur Entrée
 epeim.11:Retournez dans Applications & double cliquez sur Formiko
+
+windowsInstaliKokcinelo.1:Attendez la fin du téléchargement
+windowsInstaliKokcinelo.2:Validez que vous souhaitez concerver le fichier

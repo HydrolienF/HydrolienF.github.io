@@ -119,24 +119,62 @@
 
 
   <div id="page">
-    <div id="download-frames-container" style='margin: 0px;'>
-      <div id="trailerDiv">
+    <div id="nowrap">
+      <div>
         <h2 id="welcome">Kokcinelo</h2>
-        <p id="presentation">Breeder ant with sharp mandibles or aphid-eating ladybug, choose your side!</p>
+        <p id="presentation">Breeder ant with sharp mandibles or aphid-eating ladybug, choose your side!
+        </p>
         <!-- <p id="counter_text">formiko.fr have been visited <span id="counter"> ...</span> times !</p> -->
       </div>
-      <a id="lastStableVersionChooseOs"
-        href="https://github.com/HydrolienF/Kokcinelo/releases/latest/download/Kokcinelo.exe">
-        <div class="download-frame">
-          <h3 style="text-align: center">download</h3>
-        </div>
-      </a>
+      <div>
+        <a id="lastStableVersionChooseOs" onclick="displayAfterDownloadMessage()"
+          href="https://github.com/HydrolienF/Kokcinelo/releases/latest/download/Kokcinelo.exe">
+          <div class="download-frame">
+            <h3 style="text-align: center">download</h3>
+          </div>
+        </a>
+      </div>
     </div>
+
+    <script>
+      function displayAfterDownloadMessage() {
+        document.getElementById("showAfterDownload").style.display = "block";
+      }
+    </script>
+    <div id="showAfterDownload">
+      <br><br>
+      <p>
+  <b>We hope that you will enjoy the game!</b><br>
+  Formiko & Kokcinelo leaves from your donnations.
+  <a href="https://fr.tipeee.com/formiko" class="tipeee-project-cart-iframe" data-orientation="line" data-rewards="0">Support Formiko on Tipeee</a>
+  <script async src="https://plugin.tipeee.com/widget.js" charset="utf-8"></script>
+  <a href="https://tipeee.com/formiko">Help us on Tipeee.</a>
+</p>
+
+      <h4>Need help ?</h4>
+      <h5>Windows</h5>
+      <ol>
+        <li>Wait for the download to complete</li>
+        <li>Alidate that you want to keep the file</li>
+        <li>Open your downloads directory</li>
+        <li>Double click on the Kokcinelo</li>
+        <li>Check accept the license</li>
+        <li>Click install &#38; allow to install with administrator permission</li>
+      </ol>
+      <h5>Linux</h5>
+      <ol>
+        <li>To install the game launch in a terminal (Replace Download by your download folder if it's different):<br><code>sudo apt install ~/Download/Kokcinelo.deb</code><br></li>
+        <li>To launch game after installation launch in a terminal:<br><code>kokcinelo</code><br><br></li>
+      </ol>
+      <p>If your still have installation issues ask for help on our Discord.</p>
+      <!-- <h5>Mac</h5> -->
+    </div>
+
     <div id="discover">
       <div id="trailerDiv">
         <h4 id="trailer">watch the trailer</h4>
         <div class="containerRatio">
-          //TODO replace by Kokcinelo antaŭfilmon
+          <!-- //TODO replace by Kokcinelo antaŭfilmon -->
           <iframe class="responsive-iframe" id="game-trailer"
             src="https://www.youtube.com/embed/j7en2o6E-1Q?&autoplay=1" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

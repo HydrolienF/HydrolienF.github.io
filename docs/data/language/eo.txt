@@ -5,6 +5,7 @@ hejmo:Hejmo
 elsxuti:elŝuti
 lingvo:lingvo
 neFunkcianta:ne funkcias nuntempe
+bezonasHelpon:bezonas helpon ?
 
 //index.thml
 titoloIndekso:Hejmo - Formiko - Formika ludo
@@ -35,6 +36,7 @@ windowsLancxi:lanĉu ludon por la 1a fojo per duobla alklako sur formiko.msi ! K
 titoloKokcinelo:Kokcinelo - Ludu nun !
 priskriboKokcinelo:Reproduktanta formiko kun akraj mandibloj aŭ afidomanĝanta kokcinelo, elektu vian flankon !
 csenoPrezentadoKokcinelo:Reproduktanta formiko kun akraj mandibloj aŭ afidomanĝanta kokcinelo, elektu vian flankon !
+helpoPerDiscord:Se vi ankoraŭ havas problemojn por instali, petu helpon pri nia Discord.
 
 //thanksForDownloading
 viSxatasLudo:Ni esperas, ke vi ŝatos la ludon!
@@ -42,7 +44,7 @@ donacoPerFormiko:Formiko & Kokcinelo vivi per via donacojn
 helpuNinTipeee:Helpu nin en Tipeee
 elsxutoHelpiEtapoPerEtapo:Se vi havas problemojn, vidi la paŝo post paŝo instalado
 
-linuxInstali:Por instali la ludon lanĉu en terminalo:
+linuxInstali:Por instali la ludon lanĉu en terminalo (Anstataŭigante Download per via elŝuta dosiero):
 linuxLancxi:Por lanĉi la ludon post instali lanĉu en terminalo:
 windowsInstali:Por instali la ludon, duobla klako en instalilo en via Elŝuto/ dosierujo
 windowsLancxi:Por lanĉi la ludon uzi la ŝparvojo en via labortablo
@@ -60,7 +62,7 @@ epei.-1:Jen ĝi !
 
 epeiw.1:Alklaku la butonon de Windows
 epeiw.2:Malfermu vian elŝutejan dosierujon
-epeiw.3:Duoble alklaku la FormikoLauncher
+epeiw.3:Duoble alklaku la
 epeiw.4:Alklaku sur markobutono akcepti la permesilon
 epeiw.5:Alklaku install &#38; permesi instali kun administranto-permeso
 
@@ -84,3 +86,6 @@ epeim.8:duobla alklaku Terminal
 epeim.9:Reiru al retpaĝo kaj kopiu komandlinion
 epeim.10:Algluu komandlinion & premu Enigi
 epeim.11:Reiru en Aplikoj dosierujo & duobla alklaku Formiko
+
+windowsInstaliKokcinelo.1:Atendu la finiĝon de la elŝuto
+windowsInstaliKokcinelo.2:Konfirmu ke vi volas konservi la dosieron

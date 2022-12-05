@@ -5,6 +5,7 @@ hejmo:home
 elsxuti:download
 lingvo:language
 neFunkcianta:not working for now
+bezonasHelpon:need help ?
 
 //index.thml
 titoloIndekso:Home - Formiko - A game about ant
@@ -35,6 +36,7 @@ windowsLancxi:launch game for the 1st time by double clicking on formiko.msi ! A
 titoloKokcinelo:Kokcinelo - Play now!
 priskriboKokcinelo:Breeder ant with sharp mandibles or aphid-eating ladybug, choose your side!
 csenoPrezentadoKokcinelo:Breeder ant with sharp mandibles or aphid-eating ladybug, choose your side!
+helpoPerDiscord:If your still have installation issues ask for help on our Discord.
 
 //thanksForDownloading
 viSxatasLudo:We hope that you will enjoy the game!
@@ -42,7 +44,7 @@ donacoPerFormiko:Formiko & Kokcinelo leaves from your donnations
 helpuNinTipeee:Help us on Tipeee
 elsxutoHelpiEtapoPerEtapo:If you have any trouble check the step by step installation
 
-linuxInstali:To install the game launch in a terminal:
+linuxInstali:To install the game launch in a terminal (Replace Download by your download folder if it's different):
 linuxLancxi:To launch game after installation launch in a terminal:
 windowsInstali:To install the game, double click on installer in your Downloads folder
 windowsLancxi:To launch game use the shortcut on your desktop
@@ -60,7 +62,7 @@ epei.-1:That's it!
 
 epeiw.1:Click on the Windows button
 epeiw.2:Open your downloads directory
-epeiw.3:Double click on the FormikoLauncher
+epeiw.3:Double click on the
 epeiw.4:Check accept the license
 epeiw.5:Click install &#38; allow to install with administrator permission
 
@@ -84,3 +86,6 @@ epeim.8:Double click Terminal
 epeim.9:Go back to web site page & copy command line
 epeim.10:Paste command line & press enter
 epeim.11:Go back in Applications folder & double click Formiko
+
+windowsInstaliKokcinelo.1:Wait for the download to complete
+windowsInstaliKokcinelo.2:alidate that you want to keep the file

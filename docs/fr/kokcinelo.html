@@ -119,24 +119,62 @@
 
 
   <div id="page">
-    <div id="download-frames-container" style='margin: 0px;'>
-      <div id="trailerDiv">
+    <div id="nowrap">
+      <div>
         <h2 id="welcome">Kokcinelo</h2>
-        <p id="presentation">Fourmi éleveuse aux mandibules acérées ou coccinelle dévoreuse de pucerons, choisisez votre camp !</p>
+        <p id="presentation">Fourmi éleveuse aux mandibules acérées ou coccinelle dévoreuse de pucerons, choisisez votre camp !
+        </p>
         <!-- <p id="counter_text">formiko.fr a été visité <span id="counter"> ...</span> fois !</p> -->
       </div>
-      <a id="lastStableVersionChooseOs"
-        href="https://github.com/HydrolienF/Kokcinelo/releases/latest/download/Kokcinelo.exe">
-        <div class="download-frame">
-          <h3 style="text-align: center">téléchargement</h3>
-        </div>
-      </a>
+      <div>
+        <a id="lastStableVersionChooseOs" onclick="displayAfterDownloadMessage()"
+          href="https://github.com/HydrolienF/Kokcinelo/releases/latest/download/Kokcinelo.exe">
+          <div class="download-frame">
+            <h3 style="text-align: center">téléchargement</h3>
+          </div>
+        </a>
+      </div>
     </div>
+
+    <script>
+      function displayAfterDownloadMessage() {
+        document.getElementById("showAfterDownload").style.display = "block";
+      }
+    </script>
+    <div id="showAfterDownload">
+      <br><br>
+      <p>
+  <b>Nous esperons que vous aprécirez le jeu !</b><br>
+  Formiko & Kokcinelo existent grâce a vos dons.
+  <a href="https://fr.tipeee.com/formiko" class="tipeee-project-cart-iframe" data-orientation="line" data-rewards="0">Support Formiko on Tipeee</a>
+  <script async src="https://plugin.tipeee.com/widget.js" charset="utf-8"></script>
+  <a href="https://tipeee.com/formiko">Aidez nous sur Tipeee.</a>
+</p>
+
+      <h4>Besoin d'aide ?</h4>
+      <h5>Windows</h5>
+      <ol>
+        <li>Attendez la fin du téléchargement</li>
+        <li>Validez que vous souhaitez concerver le fichier</li>
+        <li>Ouvrez votre dossier Téléchargements</li>
+        <li>Double cliquez sur Kokcinelo</li>
+        <li>Valider que vous acceptez la licence</li>
+        <li>Cliquez sur install &#38; autoriser l'installation avec les droit administrateurs</li>
+      </ol>
+      <h5>Linux</h5>
+      <ol>
+        <li>Pour installer le jeu, lancer dans un terminal (En remplaçant Download par votre fichier de téléchargement):<br><code>sudo apt install ~/Download/Kokcinelo.deb</code><br></li>
+        <li>Pour lancer le jeu après installation lancer dans un terminal :<br><code>kokcinelo</code><br><br></li>
+      </ol>
+      <p>Si vous avez encore des soucis d'installation, demandez de l'aide sur notre Discord.</p>
+      <!-- <h5>Mac</h5> -->
+    </div>
+
     <div id="discover">
       <div id="trailerDiv">
         <h4 id="trailer">regarder la bande annonce</h4>
         <div class="containerRatio">
-          //TODO replace by Kokcinelo antaŭfilmon
+          <!-- //TODO replace by Kokcinelo antaŭfilmon -->
           <iframe class="responsive-iframe" id="game-trailer"
             src="https://www.youtube.com/embed/j7en2o6E-1Q?&autoplay=1" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

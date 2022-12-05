@@ -119,24 +119,62 @@
 
 
   <div id="page">
-    <div id="download-frames-container" style='margin: 0px;'>
-      <div id="trailerDiv">
+    <div id="nowrap">
+      <div>
         <h2 id="welcome">Kokcinelo</h2>
-        <p id="presentation">Reproduktanta formiko kun akraj mandibloj aŭ afidomanĝanta kokcinelo, elektu vian flankon !</p>
+        <p id="presentation">Reproduktanta formiko kun akraj mandibloj aŭ afidomanĝanta kokcinelo, elektu vian flankon !
+        </p>
         <!-- <p id="counter_text">formiko.fr estis vizitita <span id="counter"> ...</span> fojoj !</p> -->
       </div>
-      <a id="lastStableVersionChooseOs"
-        href="https://github.com/HydrolienF/Kokcinelo/releases/latest/download/Kokcinelo.exe">
-        <div class="download-frame">
-          <h3 style="text-align: center">elŝuti</h3>
-        </div>
-      </a>
+      <div>
+        <a id="lastStableVersionChooseOs" onclick="displayAfterDownloadMessage()"
+          href="https://github.com/HydrolienF/Kokcinelo/releases/latest/download/Kokcinelo.exe">
+          <div class="download-frame">
+            <h3 style="text-align: center">elŝuti</h3>
+          </div>
+        </a>
+      </div>
     </div>
+
+    <script>
+      function displayAfterDownloadMessage() {
+        document.getElementById("showAfterDownload").style.display = "block";
+      }
+    </script>
+    <div id="showAfterDownload">
+      <br><br>
+      <p>
+  <b>Ni esperas, ke vi ŝatos la ludon!</b><br>
+  Formiko & Kokcinelo vivi per via donacojn.
+  <a href="https://fr.tipeee.com/formiko" class="tipeee-project-cart-iframe" data-orientation="line" data-rewards="0">Support Formiko on Tipeee</a>
+  <script async src="https://plugin.tipeee.com/widget.js" charset="utf-8"></script>
+  <a href="https://tipeee.com/formiko">Helpu nin en Tipeee.</a>
+</p>
+
+      <h4>Bezonas helpon ?</h4>
+      <h5>Windows</h5>
+      <ol>
+        <li>Atendu la finiĝon de la elŝuto</li>
+        <li>Konfirmu ke vi volas konservi la dosieron</li>
+        <li>Malfermu vian elŝutejan dosierujon</li>
+        <li>Duoble alklaku la Kokcinelo</li>
+        <li>Alklaku sur markobutono akcepti la permesilon</li>
+        <li>Alklaku install &#38; permesi instali kun administranto-permeso</li>
+      </ol>
+      <h5>Linux</h5>
+      <ol>
+        <li>Por instali la ludon lanĉu en terminalo (Anstataŭigante Download per via elŝuta dosiero):<br><code>sudo apt install ~/Download/Kokcinelo.deb</code><br></li>
+        <li>Por lanĉi la ludon post instali lanĉu en terminalo:<br><code>kokcinelo</code><br><br></li>
+      </ol>
+      <p>Se vi ankoraŭ havas problemojn por instali, petu helpon pri nia Discord.</p>
+      <!-- <h5>Mac</h5> -->
+    </div>
+
     <div id="discover">
       <div id="trailerDiv">
         <h4 id="trailer">spektu la antaŭfilmon</h4>
         <div class="containerRatio">
-          //TODO replace by Kokcinelo antaŭfilmon
+          <!-- //TODO replace by Kokcinelo antaŭfilmon -->
           <iframe class="responsive-iframe" id="game-trailer"
             src="https://www.youtube.com/embed/j7en2o6E-1Q?&autoplay=1" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
