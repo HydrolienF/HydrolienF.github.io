@@ -88,4 +88,4 @@ epeim.10:Paste command line & press enter
 epeim.11:Go back in Applications folder & double click Formiko
 
 windowsInstaliKokcinelo.1:Wait for the download to complete
-windowsInstaliKokcinelo.2:alidate that you want to keep the file
+windowsInstaliKokcinelo.2:Validate that you want to keep the file
