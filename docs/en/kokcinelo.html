@@ -4,8 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Kokcinelo - Play now!</title>
-  <meta id="presentation" name="description"
-    content="Breeder ant with sharp mandibles or aphid-eating ladybug, choose your side!">
+  <meta id="presentation" name="description" content="Breeder ant with sharp mandibles or aphid-eating ladybug, choose your side!">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <link rel="stylesheet" type="text/css" href="../styles.css">
   <link rel="shortcut icon" type="image/png" href="../assets/logo.png">
@@ -26,107 +25,97 @@
 // TODO use it for javadoc
 -->
 
-  <header onload="ini()">
-    <nav>
-      <ul id="buttons-bar">
-        <a href="index.html">
-          <li title="Home" class="mainButton" id="button-home-page">
+    <header onload="ini()">
+      <nav>
+        <ul id="buttons-bar">
+          <a href="index.html"><li title="Home" class="mainButton" id="button-home-page">
             <!-- <div class="modal-content"> -->
-            <img src="/data/images/homeWebSiteLink.png" alt="Home" width="55" height="55" class="centeredIcon">
+              <img src="/data/images/homeWebSiteLink.png" alt="Home" width="55" height="55" class="centeredIcon">
             <!-- </div> -->
             <!-- Home -->
-          </li>
-        </a>
-        <!-- <a href="formiko.html"><li title="Formiko" class="mainButton" id="button-home-page">
+          </li></a>
+          <!-- <a href="formiko.html"><li title="Formiko" class="mainButton" id="button-home-page">
             <img src="/data/images/kokcinelo.png" alt="Home" width="55" height="55" class="centeredIcon">
           </li></a> -->
-        <a href="kokcinelo.html">
-          <li title="Kokcinelo" class="mainButton" id="button-kokcinelo-page">
+          <a href="kokcinelo.html"><li title="Kokcinelo" class="mainButton" id="button-kokcinelo-page">
             <img src="/data/images/kokcinelo.png" alt="Kokcinelo" width="55" height="55" class="centeredIcon">
-          </li>
-        </a>
-        <!-- <a href="download.html"><li title="Download" class="mainButton" id="button-download-page">
+          </li></a>
+          <!-- <a href="download.html"><li title="Download" class="mainButton" id="button-download-page">
             <img src="/data/images/downloadLink.png" alt="Download" width="55" height="55" class="centeredIcon">
           </li></a> -->
-        <a href="https://discord.gg/vqvfGzf">
-          <li title="Discord" class="mainButton" id="button-discord-page">
+          <a href="https://discord.gg/vqvfGzf"><li title="Discord" class="mainButton" id="button-discord-page">
             <img src="/data/images/discordLink.png" alt="Discord" width="55" height="55" class="centeredIcon">
             <!-- Discord -->
-          </li>
-        </a>
-        <a href="https://tipeee.com/formiko">
-          <li title="Support" class="mainButton" id="button-support-page">
+          </li></a>
+          <a href="https://tipeee.com/formiko"><li title="Support" class="mainButton" id="button-support-page">
             <img src="/data/images/supportGameLink.png" alt="Support" width="55" height="55" class="centeredIcon">
             <!-- Support -->
-          </li>
-        </a>
-        <a href="https://github.com/HydrolienF/">
-          <li title="Github" class="mainButton" id="button-github-page">
+          </li></a>
+          <a href="https://github.com/HydrolienF/"><li title="Github" class="mainButton" id="button-github-page">
             <img src="/data/images/githubLink.png" alt="Github" width="55" height="55" class="centeredIcon">
             <!-- Github -->
+          </li></a>
+          <li>
+            <script type="text/javascript">
+              function goJavaDoc(){
+                javadoc = document.getElementById("javadocForm").elements[0].value;
+                htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/'));
+                document.location.href=window.location.origin+"/"+javadoc+"/javadoc/index.html";
+              }
+            </script>
+            <form action="." method="get" id="javadocForm">
+              <!-- <img src="/data/images/javadocLink.png" alt="Javadoc" width="55" height="55" class="centeredIcon"> -->
+              <select name="language" onchange="goJavaDoc()" class="mainButton">
+                <option id="selectAJavadoc" value="">
+                  📙
+                  <!-- Javadoc -->
+                </option>
+                <option class="buttonListOp" value="Formiko">Formiko</option>
+                <option class="buttonListOp" value="Kokcinelo">Kokcinelo</option>
+                <option class="buttonListOp" value="usual">Usual</option>
+                <option class="buttonListOp" value="FormikoLauncher">Launcher</option>
+              </select>
+            </form>
           </li>
-        </a>
-        <li>
-          <script type="text/javascript">
-            function goJavaDoc() {
-              javadoc = document.getElementById("javadocForm").elements[0].value;
-              htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/'));
-              document.location.href = window.location.origin + "/" + javadoc + "/javadoc/index.html";
-            }
-          </script>
-          <form action="." method="get" id="javadocForm">
-            <!-- <img src="/data/images/javadocLink.png" alt="Javadoc" width="55" height="55" class="centeredIcon"> -->
-            <select name="language" onchange="goJavaDoc()" class="mainButton">
-              <option id="selectAJavadoc" value="">
-                📙
-                <!-- Javadoc -->
-              </option>
-              <option class="buttonListOp" value="Formiko">Formiko</option>
-              <option class="buttonListOp" value="Kokcinelo">Kokcinelo</option>
-              <option class="buttonListOp" value="usual">Usual</option>
-              <option class="buttonListOp" value="FormikoLauncher">Launcher</option>
-            </select>
-          </form>
-        </li>
-        <li>
-          <script type="text/javascript">
-            function swapLanguage() {
-              language = document.getElementById("languageForm").elements[0].value;
-              htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/'));
-              document.location.href = window.location.origin + "/" + language + htmlFile;
-              // document.location.href="../"+language+htmlFile;
-            }
-          </script>
-          <form action="." method="get" id="languageForm">
-            <select name="language" onchange="swapLanguage()" class="mainButton">
-              <option id="selectALanguage" value="">
-                🅰️↔🈶
-                <!-- Language -->
-              </option>
-              <option class="buttonListOp" value="en">English</option>
-              <option class="buttonListOp" value="fr">Français</option>
-              <option class="buttonListOp" value="eo">Esperanto</option>
-            </select>
-          </form>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <script type="text/javascript">
-    function ini() {
-      htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/') + 1);
-      if (document.location.href.includes("javadoc")) {
-        document.getElementById("javadocForm").setAttribute('style', 'background-color:#F8981D;');
-      } else if (htmlFile.includes("index")) {
-        document.getElementById("button-home-page").setAttribute('style', 'background-color:#F8981D;');
-      } else if (htmlFile.includes("download")) {
-        document.getElementById("button-download-page").setAttribute('style', 'background-color:#F8981D;');
-      } else if (htmlFile.includes("kokcinelo")) {
-        document.getElementById("button-kokcinelo-page").setAttribute('style', 'background-color:#F8981D;');
+          <li>
+            <script type="text/javascript">
+              function swapLanguage(){
+                language = document.getElementById("languageForm").elements[0].value;
+                htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/'));
+                document.location.href=window.location.origin+"/"+language+htmlFile;
+                // document.location.href="../"+language+htmlFile;
+              }
+            </script>
+            <form action="." method="get" id="languageForm">
+              <select name="language" onchange="swapLanguage()" class="mainButton">
+                <option id="selectALanguage" value="">
+                  🅰️↔🈶
+                  <!-- Language -->
+                </option>
+                <option class="buttonListOp" value="en">English</option>
+                <option class="buttonListOp" value="fr">Français</option>
+                <option class="buttonListOp" value="eo">Esperanto</option>
+              </select>
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <script type="text/javascript">
+      function ini() {
+        htmlFile = document.location.href.substring(document.location.href.lastIndexOf('/')+1);
+        if(document.location.href.includes("javadoc")){
+          document.getElementById("javadocForm").setAttribute('style','background-color:#F8981D;');
+        }else if(htmlFile.includes("index")){
+          document.getElementById("button-home-page").setAttribute('style','background-color:#F8981D;');
+        }else if(htmlFile.includes("download")){
+          document.getElementById("button-download-page").setAttribute('style','background-color:#F8981D;');
+        }else if(htmlFile.includes("kokcinelo")){
+          document.getElementById("button-kokcinelo-page").setAttribute('style','background-color:#F8981D;');
+        }
       }
-    }
-    ini();
-  </script>
+      ini();
+    </script>
 
 
   <div id="page">
@@ -155,13 +144,12 @@
     <div id="showAfterDownload">
       <br><br>
       <p>
-        <b>We hope that you will enjoy the game!</b><br>
-        Formiko & Kokcinelo leaves from your donnations.
-        <a href="https://fr.tipeee.com/formiko" class="tipeee-project-cart-iframe" data-orientation="line"
-          data-rewards="0">Support Formiko on Tipeee</a>
-        <script async src="https://plugin.tipeee.com/widget.js" charset="utf-8"></script>
-        <a href="https://tipeee.com/formiko">Help us on Tipeee.</a>
-      </p>
+  <b>We hope that you will enjoy the game!</b><br>
+  Formiko & Kokcinelo leaves from your donnations.
+  <a href="https://fr.tipeee.com/formiko" class="tipeee-project-cart-iframe" data-orientation="line" data-rewards="0">Support Formiko on Tipeee</a>
+  <script async src="https://plugin.tipeee.com/widget.js" charset="utf-8"></script>
+  <a href="https://tipeee.com/formiko">Help us on Tipeee.</a>
+</p>
 
       <h4>Need help ?</h4>
       <h5>Windows</h5>
@@ -175,8 +163,7 @@
       </ol>
       <h5>Linux</h5>
       <ol>
-        <li>To install the game launch in a terminal (Replace Download by your download folder if it's
-          different):<br><code>sudo apt install ~/Download/Kokcinelo.deb</code><br></li>
+        <li>To install the game launch in a terminal (Replace Download by your download folder if it's different):<br><code>sudo apt install ~/Download/Kokcinelo.deb</code><br></li>
         <li>To launch game after installation launch in a terminal:<br><code>kokcinelo</code><br><br></li>
       </ol>
       <p>If your still have installation issues ask for help on our Discord.</p>
@@ -189,7 +176,7 @@
         <div class="containerRatio">
           <!-- //TODO replace by Kokcinelo antaŭfilmon -->
           <iframe class="responsive-iframe" id="game-trailer"
-            src="https://www.youtube.com/embed/j7en2o6E-1Q?&autoplay=1" frameborder="0"
+            src="https://www.youtube.com/embed/7jmuHJgyWIk?&autoplay=1" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
         </div>
