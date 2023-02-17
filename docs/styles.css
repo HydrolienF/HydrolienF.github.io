@@ -1,46 +1,58 @@
 @import url("/mainStyle.css");
 
 
-body{
+body {
   font-family: 'Jokerman', sans-serif;
-  background-color:#B5FEFE;
+  background-color: #B5FEFE;
   color: black;
   font-size: 1.2vw;
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0 0;
 }
 
-h1{
+h1 {
   font-size: 8vw;
   padding: 2vh 1vh;
 }
-h2{
+
+h2 {
   font-size: 4vw;
   padding: 2vh 1vh;
 }
-h3{
+
+h3 {
   font-size: 3vw;
   padding: 1vh 0.5vh;
 }
-h4{
+
+h4 {
   font-size: 2.3vw;
   padding: 0.7vh 0.5vh;
 }
-h5{
+
+h5 {
   font-size: 1.4vw;
   padding: 0.7vh 0.2vh;
 }
-h6{
+
+h6 {
   font-size: 1.2vw;
   padding: 0.7vh 0.2vh;
 }
-p{
+
+p {
   font-size: 1.2vw;
 }
 
-header{
+header {
   margin-top: 30px;
   margin-left: 10%;
   margin-right: 10%;
@@ -51,7 +63,7 @@ nav ul {
   list-style-type: none;
 }
 
-#main-title{
+#main-title {
   padding: 30px;
   padding-bottom: 40px;
   display: flex;
@@ -60,11 +72,12 @@ nav ul {
   background-color: #BCEDA7;
   border-radius: 15px;
 }
-#ads{
+
+#ads {
   justify-content: center;
 }
 
-#buttons-bar{
+#buttons-bar {
   margin-top: -20px;
   display: flex;
   flex-wrap: wrap;
@@ -73,7 +86,7 @@ nav ul {
   margin-right: 5%;
 }
 
-#page{
+#page {
   margin-top: 30px;
   margin-left: 10%;
   margin-right: 10%;
@@ -86,13 +99,13 @@ nav ul {
   font-family: 'Times New Roman', sans-serif;
 }
 
-#discover{
+#discover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-#game-trailer{
+#game-trailer {
   /* max-width: 100%; */
   /* width: 50vw;
   height: 50vh; */
@@ -104,32 +117,34 @@ nav ul {
   border-radius: 15px;
 } */
 
-#page p{
+#page p {
   margin-top: 0;
 }
 
-#download-frames-container1{
+#download-frames-container1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 30px;
 }
 
-#download-frames-container{
+#download-frames-container {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: stretch;
   margin: 30px;
   /* display:none; */
 }
+
 #nowrap {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;;
+  justify-content: space-between;
+  ;
 }
 
-.download-frame{
-  background-color:#51E800;
+.download-frame {
+  background-color: #51E800;
   width: 24vw;
   height: 6vw;
   /* padding-left: 10px;
@@ -138,7 +153,7 @@ nav ul {
   margin: 1vw;
 }
 
-.download-frame:hover{
+.download-frame:hover {
   background-color: #F8981D;
   transition: width 1s, height 1s, background-color 1s, transform 1s;
 }
@@ -165,13 +180,14 @@ select {
 
 .container {
   margin: 50px auto 40px auto;
-  width: 600px auto ;
+  width: 600px auto;
   text-align: center;
 }
 
 #suggestions {
   margin-top: 35px;
 }
+
 #suggestions a {
   font-weight: 200;
   font-size: 14px;
@@ -185,6 +201,7 @@ select {
   /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
   padding-top: 56.25%;
 }
+
 .containerRatio2 {
   position: relative;
   width: 100%;
@@ -202,9 +219,11 @@ select {
   width: 100%;
   height: 100%;
 }
-#trailerDiv{
+
+#trailerDiv {
   width: 50vw;
 }
+
 /* #discordDiv{
   width: 4vw;
 } */
@@ -234,18 +253,20 @@ select {
   display: block;
 }
 
-.imgResponsiveDiv{
+.imgResponsiveDiv {
   justify-content: center;
   align-items: center;
 }
-.imgResponsive{
+
+.imgResponsive {
   width: 70vw;
   height: auto;
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
-.pCentered{
+
+.pCentered {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -256,5 +277,5 @@ select {
 }
 
 #showAfterDownload {
-  display:none;
+  display: none;
 }
