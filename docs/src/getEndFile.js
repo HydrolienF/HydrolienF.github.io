@@ -5,11 +5,11 @@ function getEndFileName() {
     return "exe"
   } else if (os.includes("linux")) {
     return "deb"
-  } else if(os.includes("mac")) {
+  } else if (os.includes("mac")) {
     // return "dmg";
-    return "zip"; //TODO fix mac version & change that.
+    return "jar"; //TODO fix mac version & change that.
   } else {
-    return "zip";
+    return "jar";
   }
 }
 document.getElementById("lastStableVersionChooseOs").href = "https://github.com/HydrolienF/Kokcinelo/releases/latest/download/Kokcinelo." + getEndFileName();
