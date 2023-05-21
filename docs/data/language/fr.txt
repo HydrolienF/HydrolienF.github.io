@@ -34,8 +34,8 @@ windowsLancxi:lancez le jeu pour la 1ère fois en double-cliquant sur formiko.ms
 
 //Kokcinelo
 titoloKokcinelo:Kokcinelo - Jouez maintenant !
-priskriboKokcinelo:Fourmi éleveuse aux mandibules acérées ou coccinelle dévoreuse de pucerons, choisisez votre camp !
-csenoPrezentadoKokcinelo:Fourmi éleveuse aux mandibules acérées ou coccinelle dévoreuse de pucerons, choisisez votre camp !
+priskriboKokcinelo:Fourmi éleveuse aux mandibules acérées ou coccinelle dévoreuse de pucerons, choisissez votre camp !
+csenoPrezentadoKokcinelo:Fourmi éleveuse aux mandibules acérées ou coccinelle dévoreuse de pucerons, choisissez votre camp !
 helpoPerDiscord:Si vous avez encore des soucis d'installation, demandez de l'aide sur notre Discord.
 
 //thanksForDownloading
@@ -57,7 +57,7 @@ etapoPerEtapoInstali:installation étape par étape
 priskriboEtapoPerEtapo:Suivez ce tuto étape par étape pour installer Formiko
 
 epei.-3:Patientez le temps que la dernière version ce téléchage
-epei.-2:Choisisez votre langue
+epei.-2:choisissez votre langue
 epei.-1:C'est bon !
 
 epeiw.1:Cliquez sur le bouton Windows
